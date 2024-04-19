@@ -1,0 +1,56 @@
+# datový soubor je připraven podle OKS-07
+### TS.04.02 - Funkčnost - možnosti parametrů
+### čísla TC a parametry testu předně odpovídají hodnotám ze Squash
+
+# formát:
+### TC Id;očekávaný_výsledek; zkratka fakulty; rok nástupu - poslední dvě číslice; zkratka typu studia; pořadí; zkratka formy studia; zahraniční - nepovinné
+### mezery jsou významové
+
+# TS.04.02.01 - Možnosti fakult
+TC.04.02.01.01;A15B0123P;FAV;15;b;123;p
+TC.04.02.01.02;D15B0123P;FDU;15;b;123;p
+TC.04.02.01.03;K15B0123P;FEK;15;b;123;p
+TC.04.02.01.04;E15B0123P;FEL;15;b;123;p
+TC.04.02.01.05;F15B0123P;FF;15;b;123;p
+TC.04.02.01.06;P15B0123P;FPE;15;b;123;p
+TC.04.02.01.07;R15B0123P;FPR;15;b;123;p
+TC.04.02.01.08;S15B0123P;FST;15;b;123;p
+TC.04.02.01.09;Z15B0123P;FZS;15;b;123;p
+
+# TS.04.02.02 - Možnosti roku nástupu na ZČU
+TC.04.02.02.01;A00N9876K;FAV;00;n;9876;k
+TC.04.02.02.02;A01N9876K;FAV;01;n;9876;k
+TC.04.02.02.03;A99N9876K;FAV;99;n;9876;k
+TC.04.02.02.04;A21N9876K;FAV;21;n;9876;k
+TC.04.02.02.05;A18N9876K;FAV; 18 ;n;9876;k
+TC.04.02.02.06;A18N9876K;FAV; 18;n;9876;k
+TC.04.02.02.07;A18N9876K;FAV;18 ;n;9876;k
+
+# TS.04.02.03 - Možnosti typů studia
+TC.04.02.03.01;E14B0099D;FEL;14;b;0099;d
+TC.04.02.03.02;E14N0099D;FEL;14;n;0099;d
+TC.04.02.03.03;E14P0099D;FEL;14;d;0099;d
+TC.04.02.03.04;E14M0099D;FEL;14;m;0099;d
+
+# TS.04.02.04 - Možnosti pořadového čísla
+TC.04.02.04.01;P08M0001P;FPE;08;m;1;p
+TC.04.02.04.02;P08M0001P;FPE;08;m;01;p
+TC.04.02.04.03;P08M0001P;FPE;08;m;001;p
+TC.04.02.04.04;P08M0001P;FPE;08;m;0001;p
+TC.04.02.04.05;P08M0099P;FPE;08;m;99;p
+TC.04.02.04.06;P08M0999P;FPE;08;m;999;p
+TC.04.02.04.07;P08M9999P;FPE;08;m;9999;p
+TC.04.02.04.08;P08M0123P;FPE;08;m; 123 ;p
+TC.04.02.04.09;P08M0123P;FPE;08;m; 123;p
+TC.04.02.04.10;P08M0123P;FPE;08;m;123 ;p
+
+# TS.04.02.05 - Možnosti formy studia
+TC.04.02.05.01;Z20B0101P;FZS;20;b;0101;p
+TC.04.02.05.02;Z20B0101K;FZS;20;b;0101;k
+TC.04.02.05.03;Z20B0101D;FZS;20;b;0101;d
+
+# TS.04.02.06 - Možnosti zahraničního studenta
+TC.04.02.06.01;S15B0001P;FST;15;b;0001;p
+TC.04.02.06.02;S15B0001PI;FST;15;b;0001;p;i
+
+
