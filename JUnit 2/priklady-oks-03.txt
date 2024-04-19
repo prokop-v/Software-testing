@@ -1,0 +1,61 @@
+# formát:
+###očekávaný_výsledek; příjmení, jméno, zkratka fakulty, rok nástupu, zkratka typu studia, zkratka formy studia, nepovinne
+
+# POZOR: Na některých řádkách je očekávaný výsledek záměrně chybně
+
+# bakaláři
+false;Novák, Josef, fav, 2014, b, p
+true;Aldus, Pavel, fav, 2014, B, p
+true;Želé, Jakub, fav, 2014, b, P, i
+true;Divoký, René, fav, 2014, B, P, I, něco navíc
+
+# navazující
+true;Platnost, Karel, fav, 2014, n, p
+true;Plát, Josef, Fav, 2014, n, p
+true;Plátno, Miloš, FAv, 2014, n, p
+true;Plankton, Richard, FAV, 2014, n, p
+true;Plachta, Jiří, fav, 2014, N, p
+true;Plášť, Rudolf, fav, 2014, n, P
+true;Plahočení, Petr, fav, 2014, n, k
+true;Plánička, Jan, fav, 2014, n, K
+true;Platno, Václav, fav, 2014, N, k
+true;Placebo, Jindřich, fav, 2014, N, K
+true;Plaňka, David, fav, 2014, n, p
+true;Plat, Michal, fav, 2014, n, p
+true;Plánička, Jaroslav, fav, 2014, n, p
+true;Platnost, Alfréd, fav, 2014, n, p
+
+# doktorandi
+true;Dlouhý, Roman, fav, 2014, p, p
+true;Široký, Stanislav, fav, 2014, P, p
+true;Bystrozraký, Martin, fav, 2014, P, P
+
+# magistři z FPR
+true;Právník, René, FPR, 2014, m, p
+true;Právník, Daniel, FPR, 2014, M, p
+true;Právník, Alois, FPR, 2014, M, P, I
+
+# bakaláři z jiných fakult správně zadaní
+true;Strojař, Pavel, fst, 2014, b, p
+true;Pedagog, Pavel, FPE, 2014, b, p
+true;Elektrikář, Pavel, fel, 2014, b, p
+true;Ekonom, Pavel, fEk, 2014, b, p
+true;Umělec, Pavel, fDU, 2014, b, p
+true;Zdravotník, Pavel, fzS, 2014, b, p
+true;Filosof, Pavel, fF, 2014, b, p
+
+# chybně zadané
+false;Chybný, Radomil, fuj, 2014, b, p
+false;Chybný, Dalimil, fav, 2014, x, p
+false;Chybný, Čestmír, fav, 2014, b, x
+false;Chybný, Vladan, fuj, 2014, x, x
+false;Chybný, Břetislav, fav, 2014, b
+false;Chybný, Pravoslav, fav, 2014
+false;Chybný, Radovan, fav
+false;Chybný, Ctirad
+true;Chybný
+false;Chybný, Drahoslav, fav, 14, b, p
+false;Chybný, Vladislav, fav, 0x2014, b, p
+false;Chybný, Sebastian, fav, 02014, b, p
+false;Chybný, Slavomír, fav, 4, b, p
+

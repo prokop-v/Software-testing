@@ -1,0 +1,21 @@
+<Configuration status="WARN">
+    <Properties>
+        <Property name="format">[%level] - %msg%n</Property>
+        <Property name="info">oks-03-log.txt</Property>
+    </Properties>
+    <Appenders>
+        <File name="${info}" fileName="oks-03-log.txt" append="false" immediateFlush="true">
+            <PatternLayout>
+                <Pattern>${format}</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="oks03.LogovaniVysledku" level="INFO" additivity="false">
+            <AppenderRef ref="${info}"/>
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="${info}"/>
+        </Root>
+    </Loggers>
+</Configuration>
