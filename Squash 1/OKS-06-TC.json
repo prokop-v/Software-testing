@@ -1,0 +1,2030 @@
+[
+  {
+    "ts": {
+      "tcList": [
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.01.01",
+            "importance": "medium",
+            "name": "Happy day scenario",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e",
+            "description": "\u003cp\u003eHappy day scenario\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eNastavte vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027left\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027 style\u003d\u0027width: 300px;\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFAV\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e123\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+              },
+              {
+                "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A15B0123P\u003c/strong\u003e\u003c/p\u003e"
+              }
+            ]
+          }
+        },
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.01.02",
+            "importance": "medium",
+            "name": "Vymazání formuláře",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003ePr\u0026aacute;vě proběhl TC.01.01 Happy day scenario\u003c/p\u003e",
+            "description": "\u003cp\u003eVymaz\u0026aacute;n\u0026iacute; formul\u0026aacute;ře\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eVymaž\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003eje nastaven na hodnotu\u0026nbsp; \u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e m\u0026aacute; hodnotu 08\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e m\u0026aacute; hodnotu 08\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003eje nastaven na hodnotu\u0026nbsp; \u003cstrong\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003eje nastaven na hodnotu\u0026nbsp; \u003cstrong\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e m\u0026aacute; hodnotu 0001\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e m\u0026aacute; hodnotu 0001\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eBlok radio-buttonů \u003cstrong\u003eForma studia\u003c/strong\u003e nem\u0026aacute; vybranou ž\u0026aacute;dnou položku\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eBlok radio-buttonů \u003cstrong\u003eForma studia\u003c/strong\u003e nem\u0026aacute; vybranou ž\u0026aacute;dnou položku\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e nen\u0026iacute; za\u0026scaron;krtnut\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e nen\u0026iacute; za\u0026scaron;krtnut\u003c/p\u003e"
+              },
+              {
+                "action": "\u003cp\u003eJe vymaz\u0026aacute;no vygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo včetně labelu \u003cstrong\u003e\u003clabel for\u003d\u0027vysledek\u0027 id\u003d\u0027label_vysledek\u0027 title\u003d\u0027Výsledné osobní číslo\u0027\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo:\u003c/label\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eJe vymaz\u0026aacute;no vygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo včetně labelu \u003cstrong\u003e\u003clabel for\u003d\u0027vysledek\u0027 id\u003d\u0027label_vysledek\u0027 title\u003d\u0027Výsledné osobní číslo\u0027\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo:\u003c/label\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e"
+              }
+            ]
+          }
+        }
+      ],
+      "prefix": "TS.01",
+      "name": "Funkčnost formuláře - hlavní tok",
+      "description": "\u003cp\u003eTesty funkčnosti - hlavn\u0026iacute; tok\u003c/p\u003e"
+    }
+  },
+  {
+    "ts": {
+      "tcList": [
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.02.01",
+            "importance": "medium",
+            "name": "Úvod",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+            "description": "\u003cp\u003eExistence z\u0026aacute;ložky\u003cb\u003e \u0026Uacute;vod\u003c/b\u003e\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na z\u0026aacute;ložku \u003cstrong\u003e\u0026Uacute;vod\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka \u003cstrong\u003e\u0026Uacute;vod\u003c/strong\u003e\u003c/p\u003e"
+              }
+            ]
+          }
+        },
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.02.02",
+            "importance": "medium",
+            "name": "Generování",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo\u003c/p\u003e",
+            "description": "\u003cp\u003eExistence z\u0026aacute;ložky \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na z\u0026aacute;ložku \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e"
+              }
+            ]
+          }
+        },
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.02.03",
+            "importance": "medium",
+            "name": "Nápověda",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo\u003c/p\u003e",
+            "description": "\u003cp\u003eExistence z\u0026aacute;ložky \u003cstrong\u003eN\u0026aacute;pověda\u003c/strong\u003e\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na z\u0026aacute;ložku \u003cstrong\u003eN\u0026aacute;pověda\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka \u003cstrong\u003eN\u0026aacute;pověda\u003c/strong\u003e\u003c/p\u003e"
+              }
+            ]
+          }
+        }
+      ],
+      "prefix": "TS.02",
+      "name": "Záložky",
+      "description": "\u003cp\u003eTest existence z\u0026aacute;ložek \u003cstrong\u003e\u0026Uacute;vod\u003c/strong\u003e, \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e, \u003cstrong\u003eN\u0026aacute;pověda\u003c/strong\u003e\u003c/p\u003e"
+    }
+  },
+  {
+    "ts": {
+      "tcList": [
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.03.01",
+            "importance": "medium",
+            "name": "Odkaz na KIV/OKS",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Uvod\u003c/p\u003e",
+            "description": "\u003cp\u003eSpr\u0026aacute;vnost odkazu na str\u0026aacute;nku předmětu KIV/OKS\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na odkaz \u003cstrong\u003eOvěřov\u0026aacute;n\u0026iacute; kvality software (KIV/OKS)\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka předmětu na Port\u0026aacute;le v Courseware\u003c/p\u003e"
+              }
+            ]
+          }
+        },
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.03.02",
+            "importance": "medium",
+            "name": "Odkaz na KIV",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Uvod\u003c/p\u003e",
+            "description": "\u003cp\u003eSpr\u0026aacute;vnost odkazu na str\u0026aacute;nku KIV - www.kiv.zcu.cz\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na odkaz \u003cstrong\u003eKatedře informatiky a v\u0026yacute;početn\u0026iacute; techniky\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka www.kiv.zcu.cz\u003c/p\u003e"
+              }
+            ]
+          }
+        },
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.03.03",
+            "importance": "medium",
+            "name": "Odkaz na ZČU",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Uvod\u003c/p\u003e",
+            "description": "\u003cp\u003eSpr\u0026aacute;vnost odkazu na str\u0026aacute;nku ZČU - www.zcu.cz\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na odkaz\u003cstrong\u003e Z\u0026aacute;padočesk\u0026eacute; univerzitě v Plzni\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka www.zcu.cz\u003c/p\u003e"
+              }
+            ]
+          }
+        }
+      ],
+      "prefix": "TS.03",
+      "name": "Úvod",
+      "description": "\u003cp\u003eTesty na str\u0026aacute;nce \u003cstrong\u003e\u0026Uacute;vod\u003c/strong\u003e\u003c/p\u003e"
+    }
+  },
+  {
+    "ts": {
+      "prefix": "TS.04",
+      "tsList": [
+        {
+          "ts": {
+            "tcList": [
+              {
+                "tc": {
+                  "nature": "functional",
+                  "prefix": "TC.04.01.01",
+                  "importance": "medium",
+                  "name": "Fakulta",
+                  "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e",
+                  "description": "\u003cp\u003eExistence v\u0026yacute;běrov\u0026eacute;ho seznamu, labelu, tool-tipů a v\u0026scaron;ech položek seznamu\u003c/p\u003e",
+                  "type": "compliance",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003eFakulta\u003c/strong\u003e, označen\u0026yacute; * jako povinn\u0026aacute; položka\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eExistuje v\u0026yacute;běrov\u0026yacute; seznam s předvybranou položkou \u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003ePoložky v\u0026yacute;běrov\u0026eacute;ho seznamu jsou v pořad\u0026iacute;:\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFEK - Fakulta ekonomick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFEL - Fakulta elektrotechnick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFF\u0026nbsp; - Fakulta filosofick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFPE - Fakulta pedagogick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFST - Fakulta strojn\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e\u003cstrong\u003eFZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eLabel m\u0026aacute; tool-tip\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e\u003cstrong\u003eVyberte fakultu\u003c/strong\u003e\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam m\u0026aacute; tool-tip\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e\u003cstrong\u003eVyberte fakultu\u003c/strong\u003e\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.02",
+                  "importance": "low",
+                  "name": "Rok nástupu na ZČU",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003epovinna polozka, zadejte posledni dvojcisli kalendarniho roku\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e, označen\u0026yacute; * jako povinn\u0026aacute; položka\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eZadejte posledn\u0026iacute; dvojč\u0026iacute;sl\u0026iacute; kalend\u0026aacute;řn\u0026iacute;ho roku\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eRok n\u0026aacute;stupu na ZČU\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003ezadano 00\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e2000\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.03",
+                  "importance": "low",
+                  "name": "Typ studia",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003etest vyberu typu studia\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003eTyp studia\u003c/strong\u003e, označen\u0026yacute; * jako povinn\u0026aacute; položka\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e-\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003enavazuj\u0026iacute;c\u0026iacute;\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003emagistersk\u0026yacute;\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003edoktorsk\u0026yacute;\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.04",
+                  "importance": "low",
+                  "name": "Pořadové číslo",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003evysledkem je cislo studenta\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e, nen\u0026iacute; označen\u0026yacute; * jako povinn\u0026aacute; položka\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003enez\u0026aacute;porn\u0026eacute; čtyřm\u0026iacute;stn\u0026eacute; č\u0026iacute;slo ud\u0026aacute;vaj\u0026iacute;c\u0026iacute; pořad\u0026iacute; studenta podle abecedy v ročn\u0026iacute;ku\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1234\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e0001\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003e0888\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.05",
+                  "importance": "low",
+                  "name": "Forma studia",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003etest formy studia\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003eForma studia\u003c/strong\u003e\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eVyb\u0026iacute;r\u0026aacute; se forma studia za pomoci radio buttonu\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eForma studia\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eP\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003ePrezenčn\u0026iacute;\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eK\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eKombinovan\u0026aacute;\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eD\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eDistančn\u0026iacute;\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.06",
+                  "importance": "low",
+                  "name": "Zahraniční student",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003etest, jedn\u0026aacute;-li se o zahraničn\u0026iacute;ho studenta\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje label \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e, označen\u0026yacute;\u0026nbsp;jako nepovinn\u0026aacute; položka\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003echeck-box\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e1/0\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "undefined",
+                  "prefix": "TC.04.01.07",
+                  "importance": "low",
+                  "name": "Generuj osobní číslo",
+                  "prerequisite": "",
+                  "description": "\u003cp\u003etest vygenerov\u0026aacute;n\u0026iacute; osobn\u0026iacute;ho č\u0026iacute;sla\u003c/p\u003e\n",
+                  "type": "undefined",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje tlač\u0026iacute;tko \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e\n",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eStisknut\u0026iacute;\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eOdesl\u0026aacute;n\u0026iacute; a kontrola hodnot na serveru\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "functional",
+                  "prefix": "TC.04.01.08",
+                  "importance": "medium",
+                  "name": "Vymaž",
+                  "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e",
+                  "description": "\u003cp\u003eExistence tlač\u0026iacute;tka a tool-tipu\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e",
+                  "type": "compliance",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eExistuje tlač\u0026iacute;tko \u003cstrong\u003eVymaž\u003c/strong\u003e\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e",
+                      "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eTlač\u0026iacute;tko m\u0026aacute; tool-tip\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003e\u003cstrong\u003eVymaz\u0026aacute;n\u0026iacute; v\u0026scaron;ech hodnot\u003c/strong\u003e\u003c/p\u003e"
+                    }
+                  ]
+                }
+              }
+            ],
+            "prefix": "TS.04.01",
+            "name": "Položky formuláře",
+            "description": "\u003cp\u003eTesty existence položek formul\u0026aacute;ře\u003c/p\u003e"
+          }
+        },
+        {
+          "ts": {
+            "prefix": "TS.04.02",
+            "tsList": [
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.03",
+                        "importance": "low",
+                        "name": "FEK",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e\u003cstrong\u003eFEK - Fakulta ekonomick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFEK - Fakulta ekonomick\u0026aacute;.\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: K15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.08",
+                        "importance": "low",
+                        "name": "FST",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eFST - Fakulta strojn\u0026iacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFST - Fakulta strojn\u0026iacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: S15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.02",
+                        "importance": "low",
+                        "name": "FDU",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e\u003cstrong\u003eFDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/strong\u003e\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/strong\u003e\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: D15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.01.01",
+                        "importance": "medium",
+                        "name": "FAV",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e123\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eFAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A15B0123P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.04",
+                        "importance": "low",
+                        "name": "FEL",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eFEL - Fakulta elektrotechnick\u0026aacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFEL - Fakulta elektrotechnick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: E15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.05",
+                        "importance": "low",
+                        "name": "FF",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eFF - Fakulta filosofick\u0026aacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFF - Fakulta filosofick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: F15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.07",
+                        "importance": "low",
+                        "name": "FPR",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eFPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: R15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.01.09",
+                        "importance": "medium",
+                        "name": "FZS",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e123\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eFZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: Z15B0123P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.01.06",
+                        "importance": "low",
+                        "name": "FPE",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eFPE - Fakulta pedagogick\u0026aacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta \u003c/strong\u003ena hodnotu \u003cstrong\u003eFPE - Fakulta pedagogick\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P15B0123P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.01",
+                  "name": "Možnosti fakult",
+                  "description": "\u003cp\u003eMožn\u0026eacute; volby fakult\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.02.01",
+                        "importance": "medium",
+                        "name": "Rok 00",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFAV\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003enavazuj\u0026iacute;c\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e9876\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003ekombinovan\u0026aacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eRok 2000\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 00\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A00N9876K\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.02.07",
+                        "importance": "medium",
+                        "name": "Rok 18_",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFAV\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003enavazuj\u0026iacute;c\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e9876\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003ekombinovan\u0026aacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eRok 2018 s mezerou za\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 18\u0026lt;mezera\u0026gt;\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A18N9876K\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.02.02",
+                        "importance": "low",
+                        "name": "Rok 21",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e21\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 21\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A21N9876K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.02.03",
+                        "importance": "low",
+                        "name": "Rok 36",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e36\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 36\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A36N9876K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.02.04",
+                        "importance": "low",
+                        "name": "Rok 80",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e80\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 80\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A80N9876K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.02.05",
+                        "importance": "low",
+                        "name": "Rok 13",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003erok 13\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 13\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A13N9876K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.02.06",
+                        "importance": "low",
+                        "name": "Rok 01",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e1\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 01\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: A01N9876K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.02",
+                  "name": "Možnosti roku nástupu na ZČU",
+                  "description": "\u003cp\u003eMožnosti roku n\u0026aacute;stupu na ZČU\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.03.01",
+                        "importance": "medium",
+                        "name": "Bakalářský",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFEL\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0099\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003edistančn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eBakal\u0026aacute;řsk\u0026yacute;\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003ena hodnotu \u003cstrong\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: E14B0099D\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.03.02",
+                        "importance": "low",
+                        "name": "Navazující",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003etyp studia navazujici\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003ena hodnotu \u003cstrong\u003enavazujici\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: E14N0099D\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.03.03",
+                        "importance": "low",
+                        "name": "Doktorský",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003etyp studia doktorsk\u0026yacute;\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003ena hodnotu \u003cstrong\u003edoktorsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: E14P0099D\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.03.04",
+                        "importance": "medium",
+                        "name": "Magisterský",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFEL\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0099\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003edistančn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eMagistersk\u0026yacute;\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte v\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia \u003c/strong\u003ena hodnotu \u003cstrong\u003emagistersk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: E14M0099D\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.03",
+                  "name": "Možnosti typů studia",
+                  "description": "\u003cp\u003eMožnosti typů studia\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.04.01",
+                        "importance": "medium",
+                        "name": "Pořadí 1",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFPE\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e08\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003emagistersk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003ePořad\u0026iacute; 1\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 1\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0001P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.04.10",
+                        "importance": "medium",
+                        "name": "Pořadí 123_",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFPE\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e08\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003emagistersk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003ePořad\u0026iacute; 123 s mezerou za\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 123\u0026lt;mezera\u0026gt;\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0123P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.02",
+                        "importance": "low",
+                        "name": "Pořadí 44",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eporadi 44\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 44\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0044P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.03",
+                        "importance": "low",
+                        "name": "Pořadí 73",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eporadi 73\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 73\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0073P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.04",
+                        "importance": "low",
+                        "name": "Pořadí 1112",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eporadi 1112\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 1112\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M1112P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.05",
+                        "importance": "low",
+                        "name": "Pořadí 555",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eporadi 555\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 555\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0555P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.06",
+                        "importance": "low",
+                        "name": "Pořadí 1000",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eporadi 1000\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 1000\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M1000P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.07",
+                        "importance": "low",
+                        "name": "Pořadí 9998",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e9998\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 9998\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M9998P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.08",
+                        "importance": "low",
+                        "name": "Pořadí 38",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e38\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 38\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0038P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.04.09",
+                        "importance": "low",
+                        "name": "Pořadí 2",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e2\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 2\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: P08M0002P\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.04",
+                  "name": "Možnosti pořadového čísla",
+                  "description": "\u003cp\u003eMožnosti pořadov\u0026eacute;ho č\u0026iacute;sla\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.05.01",
+                        "importance": "medium",
+                        "name": "Prezenční",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFZS\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e20\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0101\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003ePrezenčn\u0026iacute;\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte radio-button \u003cstrong\u003eForma studia \u003c/strong\u003ena hodnotu \u003cstrong\u003eprezenčn\u0026iacute;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: Z20B0101P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.05.03",
+                        "importance": "medium",
+                        "name": "Distanční",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFZS\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e20\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0101\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eDistančn\u0026iacute;\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte radio-button \u003cstrong\u003eForma studia \u003c/strong\u003ena hodnotu \u003cstrong\u003edistančn\u0026iacute;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: Z20B0101D\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.02.05.02",
+                        "importance": "low",
+                        "name": "Kombinovaná",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ekombinovana\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte radio-button \u003cstrong\u003eForma studia \u003c/strong\u003ena hodnotu \u003cstrong\u003ekombinovan\u0026aacute;\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: Z20B0101K\u003c/strong\u003e\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.05",
+                  "name": "Možnosti formy studia",
+                  "description": "\u003cp\u003eMožnosti formy studia\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.06.01",
+                        "importance": "medium",
+                        "name": "Zahraniční student NE",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFST\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0001\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eZahraničn\u0026iacute; student NE\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e nen\u0026iacute; vybr\u0026aacute;n\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: S15B0001P\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.02.06.02",
+                        "importance": "medium",
+                        "name": "Zahraniční student ANO",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou nastaveny tyto vstupn\u0026iacute; hodnoty:\u003c/p\u003e\u003ctable align\u003d\u0027center\u0027 border\u003d\u00271\u0027 cellpadding\u003d\u00271\u0027 cellspacing\u003d\u00271\u0027\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eFakulta\u003c/td\u003e\u003ctd\u003eFST\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eRok n\u0026aacute;stupu na ZČU\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTyp studia\u003c/td\u003e\u003ctd\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/td\u003e\u003ctd\u003e0001\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eForma studia\u003c/td\u003e\u003ctd\u003eprezenčn\u0026iacute;\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                        "description": "\u003cp\u003eZahraničn\u0026iacute; student ANO\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e je vybr\u0026aacute;n (za\u0026scaron;krtnut)\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo: S15B0001PI\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.02.06",
+                  "name": "Možnosti zahraničního studenta",
+                  "description": "\u003cp\u003eMožnosti zahraničn\u0026iacute;ho studenta\u003c/p\u003e"
+                }
+              }
+            ],
+            "name": "Funkčnost - možnosti parametrů",
+            "description": "\u003cp\u003eMožnosti jednotliv\u0026yacute;ch vstupn\u0026iacute;ch parametrů\u003c/p\u003e"
+          }
+        },
+        {
+          "ts": {
+            "prefix": "TS.04.03",
+            "tsList": [
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.01.01",
+                        "importance": "medium",
+                        "name": "Fakulta nevybrána",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - nen\u0026iacute; vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; z nab\u0026iacute;zen\u0026yacute;ch fakult\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe v\u0026yacute;běrov\u0026eacute;m seznamu \u003cstrong\u003eFakulta \u003c/strong\u003eje vybr\u0026aacute;na položka \u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam bude červeně or\u0026aacute;mov\u0026aacute;n\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cexpectedresults\u003e\u003c![CDATA[\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eFakulta nezvolena\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eFakulta nezvolena\u003c/strong\u003e\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.03.01",
+                  "name": "Alternativy Fakulta",
+                  "description": "\u003cp\u003eReakce na chybov\u0026eacute; vstupy u Fakulta\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.02.01",
+                        "importance": "medium",
+                        "name": "Rok nezadán",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - rok nen\u0026iacute; zad\u0026aacute;n\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 08.\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole bude červeně or\u0026aacute;mov\u0026aacute;no\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003ePr\u0026aacute;zdn\u0026yacute; vstup\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003ePr\u0026aacute;zdn\u0026yacute; vstup\u003c/strong\u003e\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.02.11",
+                        "importance": "medium",
+                        "name": "Rok vědecká notace E",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - rok vědeck\u0026aacute; notace E\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e je zad\u0026aacute;na hodnota 1E2\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole bude červeně or\u0026aacute;mov\u0026aacute;no a je v něm hodnota 1E2\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eNepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eNepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/strong\u003e\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.02",
+                        "importance": "low",
+                        "name": "Žádná hodnota",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ezadna hodnota\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu -\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.03",
+                        "importance": "low",
+                        "name": "Bílé znaky",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003epouze b\u0026iacute;l\u0026eacute; znaky\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.04",
+                        "importance": "low",
+                        "name": "Nečíselná hodnota",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eneciselna hodnota\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu A\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.05",
+                        "importance": "low",
+                        "name": "Více než 2 dekadické číslice",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ebylo zad\u0026aacute;no v\u0026iacute;ce než 2 dek. č\u0026iacute;slice\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 232\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Je požadov\u0026aacute;no dvojč\u0026iacute;sl\u0026iacute;\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.06",
+                        "importance": "low",
+                        "name": "Jedna dekadická číslice",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ezadana pouze jedna dekadicka cislice\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 5\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Je požadov\u0026aacute;no dvojč\u0026iacute;sl\u0026iacute;\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.07",
+                        "importance": "low",
+                        "name": "zadáno znaménko +1",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ecislo se znamenkem\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu +1\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.09",
+                        "importance": "low",
+                        "name": "Znaménko -1",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eznam\u0026eacute;nko -1\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu -1\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eDole na str\u0026aacute;nce se objev\u0026iacute;:\u003c/p\u003e\n\n\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.08",
+                        "importance": "low",
+                        "name": "desetinná čárka (,1 1,)",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ezadana desetinna tecka ci carka\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 5,0\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.02.10",
+                        "importance": "low",
+                        "name": "Desetinná tečka",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(1. .1)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eNastavte vstupn\u0026iacute; textov\u0026eacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e\u003cstrong\u003e \u003c/strong\u003ena hodnotu 5,0\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.03.02",
+                  "name": "Alternativy Rok nástupu",
+                  "description": "\u003cp\u003eReakce na chybov\u0026eacute; vstupy u Rok n\u0026aacute;stupu na ZČU\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.03.01",
+                        "importance": "medium",
+                        "name": "Pořadové číslo nezadáno",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - Pořadov\u0026eacute; č\u0026iacute;slo nezad\u0026aacute;no\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 0001.\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole bude červeně or\u0026aacute;mov\u0026aacute;no\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003ePr\u0026aacute;zdn\u0026yacute; vstup\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003ePr\u0026aacute;zdn\u0026yacute; vstup\u003c/strong\u003e\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.03.14",
+                        "importance": "medium",
+                        "name": "Pořadové číslo vědecká notace E",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - Pořadov\u0026eacute; č\u0026iacute;slo je ve vědeck\u0026eacute; notaci E\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e je zad\u0026aacute;na hodnota 12E1\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole bude červeně or\u0026aacute;mov\u0026aacute;no a je v něm hodnota 12E1\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eNepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/strong\u003e\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eNepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/strong\u003e\u003cbr /\u003e\u0026nbsp;\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.02",
+                        "importance": "low",
+                        "name": "Žádná hodnota",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ezadna hodnota\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou -\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.03",
+                        "importance": "low",
+                        "name": "Bílé znaky",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003epouze b\u0026iacute;l\u0026eacute; znaky\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou\u0026nbsp; \u0026nbsp;.\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003e1\u003c/p\u003e\n"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e\n",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.04",
+                        "importance": "low",
+                        "name": "Nečíselná hodnota",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003eneciselna hodnota\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 000A1.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.05",
+                        "importance": "low",
+                        "name": "Více než 4 dekadické číslice",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ebylo zad\u0026aacute;no v\u0026iacute;ce než 4\u0026nbsp;dek. č\u0026iacute;slice\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 00001.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; V\u0026iacute;ce než čtyři č\u0026iacute;slice\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.07",
+                        "importance": "low",
+                        "name": "Nula jednou číslicí",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(0)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 0.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nula nen\u0026iacute; povolena\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.09",
+                        "importance": "low",
+                        "name": "desetinná tečka",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(.1 1.)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 1.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.08",
+                        "importance": "low",
+                        "name": "znaménko +1",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003ezadano znamenko +1\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou +1.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.10",
+                        "importance": "low",
+                        "name": "Nula dvěma číslicemi",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(00)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 00.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nula nen\u0026iacute; povolena\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.11",
+                        "importance": "low",
+                        "name": "Nula třemi číslicemi",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(000)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 000.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nula nen\u0026iacute; povolena\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.12",
+                        "importance": "low",
+                        "name": "Nula čtyřmi číslicemi",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(0000)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 0000.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nula nen\u0026iacute; povolena\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.13",
+                        "importance": "low",
+                        "name": "Znaménko -1",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e-1\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou -1.\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "tc": {
+                        "nature": "undefined",
+                        "prefix": "TC.04.03.03.06",
+                        "importance": "low",
+                        "name": "desetinna carka",
+                        "prerequisite": "",
+                        "description": "\u003cp\u003e(1, ,1)\u003c/p\u003e\n",
+                        "type": "undefined",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eVe vstupn\u0026iacute;m textov\u0026eacute;m poli \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e nebyla dosud zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota. Je tam vidět původn\u0026iacute; n\u0026aacute;pověda form\u0026aacute;tu s hodnotou 1,\u003c/p\u003e\n",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ebude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003c/p\u003e\n"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.03.03",
+                  "name": "Alternativy Pořadové číslo",
+                  "description": "\u003cp\u003eReakce na chybov\u0026eacute; vstupy u Pořadov\u0026eacute; č\u0026iacute;slo\u003c/p\u003e"
+                }
+              },
+              {
+                "ts": {
+                  "tcList": [
+                    {
+                      "tc": {
+                        "nature": "functional",
+                        "prefix": "TC.04.03.04.01",
+                        "importance": "medium",
+                        "name": "Forma studia nevybrána",
+                        "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eHodnoty nastaven\u0026eacute; u ostatn\u0026iacute;ch vstupn\u0026iacute;ch položek nejsou pro toto TC relevantn\u0026iacute;\u003c/p\u003e",
+                        "description": "\u003cp\u003eTest oček\u0026aacute;van\u0026eacute; reakce - nen\u0026iacute; vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; z nab\u0026iacute;zen\u0026yacute;ch forem studia\u003c/p\u003e",
+                        "type": "compliance",
+                        "steps": [
+                          {
+                            "action": "\u003cp\u003eV radio-bloku \u003cstrong\u003eForma studia\u003c/strong\u003e nen\u0026iacute; vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; položka\u003c/p\u003e",
+                            "expected_result": "\u003cexecution_type\u003e1\u003c/execution_type\u003e\u003c/step\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003eVpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eForma nezvolena\u003c/strong\u003e\u003c/p\u003e"
+                          },
+                          {
+                            "action": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e",
+                            "expected_result": "\u003cp\u003ePod formul\u0026aacute;řem se vyp\u0026iacute;\u0026scaron;e červeně:\u003cbr /\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/p\u003e"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "prefix": "TS.04.03.04",
+                  "name": "Alternativy Forma studia",
+                  "description": "\u003cp\u003eReakce na chybov\u0026eacute; vstupy u Forma studia\u003c/p\u003e"
+                }
+              }
+            ],
+            "name": "Funkčnost - alternativní toky",
+            "description": "\u003cp\u003eTesty funkčnosti - alternativn\u0026iacute; toky\u003c/p\u003e"
+          }
+        },
+        {
+          "ts": {
+            "tcList": [
+              {
+                "tc": {
+                  "nature": "functional",
+                  "prefix": "TC.04.04.01",
+                  "importance": "medium",
+                  "name": "Vymazání kompletního formuláře",
+                  "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eJsou zvoleny/nastaveny položky:\u003c/p\u003e\u003cul\u003e\u003cli\u003eFAV\u003c/li\u003e\u003cli\u003e16\u003c/li\u003e\u003cli\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/li\u003e\u003cli\u003e0123\u003c/li\u003e\u003cli\u003eprezenčn\u0026iacute;\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eJe zvolen \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e.\u003c/p\u003e\u003cp\u003ePo stisku \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e je toto vygenerov\u0026aacute;no a zobrazeno dole.\u003c/p\u003e",
+                  "description": "\u003cp\u003eV\u0026scaron;echny položky byly spr\u0026aacute;vně zad\u0026aacute;ny a je vygenerov\u0026aacute;no v\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo.\u003cbr /\u003ePo stisku \u003cstrong\u003eVymaž\u003c/strong\u003e se mus\u0026iacute; v\u0026scaron;echny položky nastavit na poč\u0026aacute;tečn\u0026iacute; hodnoty.\u003c/p\u003e",
+                  "type": "compliance",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eVymaž\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eFakulta\u003c/strong\u003e bude nastaven na \u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e bude vymaz\u0026aacute;no a bude v něm n\u0026aacute;pověda 08\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e bude vymaz\u0026aacute;no a bude v něm n\u0026aacute;pověda 08\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia\u003c/strong\u003e bude nastaven na \u003cstrong\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eV\u0026yacute;běrov\u0026yacute; seznam \u003cstrong\u003eTyp studia\u003c/strong\u003e bude nastaven na \u003cstrong\u003ebakal\u0026aacute;řsk\u0026yacute;\u003c/strong\u003e\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e bude vymaz\u0026aacute;no a bude v něm n\u0026aacute;pověda 0001\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003ePořadov\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e bude vymaz\u0026aacute;no a bude v něm n\u0026aacute;pověda 0001\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eV bloku radio-buttonů \u003cstrong\u003eForma studia\u003c/strong\u003e nebude vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eV bloku radio-buttonů \u003cstrong\u003eForma studia\u003c/strong\u003e nebude vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e nebude vybr\u0026aacute;n\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eCheck-box \u003cstrong\u003eZahraničn\u0026iacute; student\u003c/strong\u003e nebude vybr\u0026aacute;n\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eVygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo je kompletně vymaz\u0026aacute;no.\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eVygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo je kompletně vymaz\u0026aacute;no.\u003c/p\u003e"
+                    }
+                  ]
+                }
+              },
+              {
+                "tc": {
+                  "nature": "functional",
+                  "prefix": "TC.04.04.02",
+                  "importance": "medium",
+                  "name": "Vymazání formuláře s chybou",
+                  "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e\u003cp\u003eVe vstupn\u0026iacute;m poli \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e je hodnota \u003cstrong\u003esto\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eNa nastaven\u0026iacute; ostatn\u0026iacute;ch položek nez\u0026aacute;lež\u0026iacute;.\u003c/p\u003e\u003cp\u003ePo stisku \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e je:\u003c/p\u003e\u003cul\u003e\u003cli\u003evstupn\u0026iacute; pole s hodnotou \u003cstrong\u003esto \u003c/strong\u003ečerveně or\u0026aacute;mov\u0026aacute;no\u003c/li\u003e\u003cli\u003evpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eNen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e\u003c/li\u003e\u003cli\u003ezcela dole bude červen\u0026eacute; chybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; \u003cstrong\u003e\u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+                  "description": "\u003cp\u003eVyplněn\u0026yacute; formul\u0026aacute;ř obsahuje chybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute;.\u003c/p\u003e\u003cp\u003eToto hl\u0026aacute;\u0026scaron;en\u0026iacute; mus\u0026iacute; b\u0026yacute;t po stisku \u003cstrong\u003eVymaž \u003c/strong\u003evymaz\u0026aacute;no.\u003c/p\u003e",
+                  "type": "compliance",
+                  "steps": [
+                    {
+                      "action": "\u003cp\u003eStisk tlač\u0026iacute;tka \u003cstrong\u003eVymaž\u003c/strong\u003e\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU \u003c/strong\u003eje vymaz\u0026aacute;no a obsahuje n\u0026aacute;povědu 08\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e nen\u0026iacute; červeně or\u0026aacute;mov\u0026aacute;no\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eVstupn\u0026iacute; pole \u003cstrong\u003eRok n\u0026aacute;stupu na ZČU\u003c/strong\u003e nen\u0026iacute; červeně or\u0026aacute;mov\u0026aacute;no\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eChybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute;\u0026nbsp;\u003cstrong\u003eNen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e je vymaz\u0026aacute;no.\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eChybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute;\u0026nbsp;\u003cstrong\u003eNen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003c/strong\u003e je vymaz\u0026aacute;no.\u003c/p\u003e"
+                    },
+                    {
+                      "action": "\u003cp\u003eChybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; \u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e zcela dole je vymaz\u0026aacute;no\u003c/p\u003e",
+                      "expected_result": "\u003cp\u003eChybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; \u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e zcela dole je vymaz\u0026aacute;no\u003c/p\u003e"
+                    }
+                  ]
+                }
+              }
+            ],
+            "prefix": "TS.04.04",
+            "name": "Funkčnost - vymazání",
+            "description": "\u003cp\u003eVymaz\u0026aacute;n\u0026iacute; formul\u0026aacute;ře\u003c/p\u003e"
+          }
+        }
+      ],
+      "name": "Generování",
+      "description": "\u003cp\u003eTesty na str\u0026aacute;nce \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e"
+    }
+  },
+  {
+    "ts": {
+      "tcList": [
+        {
+          "tc": {
+            "nature": "functional",
+            "prefix": "TC.05.01",
+            "importance": "medium",
+            "name": "Odkaz na Generování",
+            "prerequisite": "\u003cp\u003eJe zobrazena str\u0026aacute;nka http://oks.kiv.zcu.cz/OsobniCislo/Napoveda\u003c/p\u003e",
+            "description": "\u003cp\u003eSpr\u0026aacute;vnost odkazu na str\u0026aacute;nku \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+            "type": "compliance",
+            "steps": [
+              {
+                "action": "\u003cp\u003eKliknut\u0026iacute; na odkaz \u003cstrong\u003ena str\u0026aacute;nce generov\u0026aacute;n\u0026iacute;\u003c/strong\u003e\u003c/p\u003e",
+                "expected_result": "\u003cp\u003eZobraz\u0026iacute; se str\u0026aacute;nka \u003cstrong\u003eGenerov\u0026aacute;n\u0026iacute;\u003c/strong\u003e - oks.kiv.zcu.cz/OsobniCislo/Generovani\u003c/p\u003e"
+              }
+            ]
+          }
+        }
+      ],
+      "prefix": "TS.05",
+      "name": "Nápověda",
+      "description": "\u003cp\u003eTesty na str\u0026aacute;nce \u003cstrong\u003eN\u0026aacute;pověda\u003c/strong\u003e\u003c/p\u003e"
+    }
+  }
+]

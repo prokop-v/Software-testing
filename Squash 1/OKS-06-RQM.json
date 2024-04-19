@@ -1,0 +1,344 @@
+[
+  {
+    "rqs": {
+      "rqmList": [
+        {
+          "rqm": {
+            "prefix": "RQM.01.01",
+            "name": "Happy day scenario",
+            "criticality": "undefined",
+            "description": "\u003cul\u003e\u003cli\u003epo stisku tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e\u003cul\u003e\u003cli\u003evyp\u0026iacute;\u0026scaron;e dolů do formul\u0026aacute;ře label \u003cstrong\u003eV\u0026yacute;sledn\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e n\u0026aacute;sledovan\u0026yacute; vygenerovan\u0026yacute;m osobn\u0026iacute;m č\u0026iacute;slem\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eosobn\u0026iacute; č\u0026iacute;slo na ZČU se sest\u0026aacute;v\u0026aacute; z pěti (\u0026scaron;esti) č\u0026aacute;st\u0026iacute; - FrrTppppfN, např. A12B0987P, kde:\u003cul\u003e\u003cli\u003eF \u003d Fakulta\u003cul\u003e\u003cli\u003eA \u003d FAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/li\u003e\u003cli\u003eD \u003d FDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/li\u003e\u003cli\u003eK \u003d FEK - Fakulta ekonomick\u0026aacute;\u003c/li\u003e\u003cli\u003eE \u003d FEL - Fakulta elektrotechnick\u0026aacute;\u003c/li\u003e\u003cli\u003eF \u003d FF - Fakulta filosofick\u0026aacute;\u003c/li\u003e\u003cli\u003eP \u003d FPE - Fakulta pedagogick\u0026aacute;\u003c/li\u003e\u003cli\u003eR \u003d FPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/li\u003e\u003cli\u003eS \u003d FST - Fakulta strojn\u0026iacute;\u003c/li\u003e\u003cli\u003eZ \u003d FZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003err \u003d rok n\u0026aacute;stupu na studia\u003cul\u003e\u003cli\u003eposledn\u0026iacute; dvojč\u0026iacute;sl\u0026iacute; roku n\u0026aacute;stupu na studia\u003c/li\u003e\u003cli\u003ejsou ignorov\u0026aacute;ny b\u0026iacute;l\u0026eacute; znaky na zač\u0026aacute;tku a na konci zadan\u0026eacute;ho řetězce\u003cul\u003e\u003cli\u003etyto b\u0026iacute;l\u0026eacute; znaky jsou po odesl\u0026aacute;n\u0026iacute; formul\u0026aacute;ře ze zadan\u0026eacute;ho řetězce bez varov\u0026aacute;n\u0026iacute; odstraněny\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eT \u003d typ studia\u003cul\u003e\u003cli\u003eB \u003d bakal\u0026aacute;řsk\u0026yacute;\u003c/li\u003e\u003cli\u003eN \u003d navazuj\u0026iacute;c\u0026iacute;\u003c/li\u003e\u003cli\u003eP \u003d doktorsk\u0026yacute;\u003c/li\u003e\u003cli\u003eM \u003d magistersk\u0026yacute;\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003epppp \u003d pořadov\u0026eacute; č\u0026iacute;slo\u003cul\u003e\u003cli\u003ečtyřm\u0026iacute;stn\u0026eacute; č\u0026iacute;slo s nev\u0026yacute;znamov\u0026yacute;mi nulami, zač\u0026iacute;n\u0026aacute; od 0001\u003c/li\u003e\u003cli\u003ejsou ignorov\u0026aacute;ny b\u0026iacute;l\u0026eacute; znaky na zač\u0026aacute;tku a na konci zadan\u0026eacute;ho řetězce\u003cul\u003e\u003cli\u003etyto b\u0026iacute;l\u0026eacute; znaky jsou po odesl\u0026aacute;n\u0026iacute; formul\u0026aacute;ře ze zadan\u0026eacute;ho řetězce bez varov\u0026aacute;n\u0026iacute; odstraněny\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003ef \u003d forma studia\u003cul\u003e\u003cli\u003eP \u003d prezenčn\u0026iacute;\u003c/li\u003e\u003cli\u003eK \u003d kombinovan\u0026aacute;\u003c/li\u003e\u003cli\u003eD \u003d distančn\u0026iacute;\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003eN \u003d nepovinn\u0026eacute;\u003cul\u003e\u003cli\u003eje-li položka vybr\u0026aacute;na, bude na konci v\u0026yacute;sledn\u0026eacute;ho osobn\u0026iacute;ho č\u0026iacute;sla p\u0026iacute;smeno \u003cstrong\u003eI\u003c/strong\u003e jako označen\u0026iacute; mezin\u0026aacute;rodn\u0026iacute;ch (international) studentů\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e",
+            "category": "undefined"
+          }
+        },
+        {
+          "rqm": {
+            "prefix": "RQM.01.02",
+            "name": "Vymazání formuláře",
+            "criticality": "undefined",
+            "description": "\u003cul\u003e\u003cli\u003epo stisku tlač\u0026iacute;tka \u003cstrong\u003eVymaž formul\u0026aacute;ř\u003c/strong\u003e\u003cul\u003e\u003cli\u003evymaže obě vstupn\u0026iacute; pole a nastav\u0026iacute; jim zobrazen\u0026eacute; n\u0026aacute;povědy\u003c/li\u003e\u003cli\u003eoba v\u0026yacute;běrov\u0026eacute; seznamy nastav\u0026iacute; na předvyplněn\u0026eacute; hodnody\u003c/li\u003e\u003cli\u003ev bloku radio-buttonů nebude vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota\u003c/li\u003e\u003cli\u003echeck-box nebude vybr\u0026aacute;n\u003c/li\u003e\u003cli\u003ev\u0026scaron;echna př\u0026iacute;padn\u0026aacute; chybov\u0026aacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; vypsan\u0026aacute; při předchoz\u0026iacute;m generov\u0026aacute;n\u0026iacute; budou vymaz\u0026aacute;na\u003c/li\u003e\u003cli\u003ebude vymaz\u0026aacute;no i př\u0026iacute;padn\u0026eacute; v\u0026yacute;sledn\u0026eacute; vygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo včetně sv\u0026eacute;ho labelu\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e",
+            "category": "undefined"
+          }
+        }
+      ],
+      "prefix": "RQS.01",
+      "name": "Funkčnost formuláře - hlavní tok",
+      "description": "\u003cp\u003eOček\u0026aacute;van\u0026aacute; funkčnost formul\u0026aacute;ře - hlavn\u0026iacute; tok (Happy day scenario)\u003c/p\u003e"
+    }
+  },
+  {
+    "rqs": {
+      "rqmList": [
+        {
+          "rqm": {
+            "prefix": "RQM.02.01",
+            "name": "Úvod",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eExistuje funkčn\u0026iacute; z\u0026aacute;ložka \u0026Uacute;vod\u003c/p\u003e",
+            "category": "undefined"
+          }
+        },
+        {
+          "rqm": {
+            "prefix": "RQM.02.02",
+            "name": "Generování",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eExistuje funkčn\u0026iacute; z\u0026aacute;ložka Generov\u0026aacute;n\u0026iacute;\u003c/p\u003e",
+            "category": "undefined"
+          }
+        },
+        {
+          "rqm": {
+            "prefix": "RQM.02.03",
+            "name": "Nápověda",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eExistuje funkčn\u0026iacute; z\u0026aacute;ložka N\u0026aacute;pověda\u003c/p\u003e",
+            "category": "undefined"
+          }
+        }
+      ],
+      "prefix": "RQS.02",
+      "name": "Záložky",
+      "description": "\u003cp\u003eZ\u0026aacute;ložky aplikace - \u0026Uacute;vod, Osobn\u0026iacute; č\u0026iacute;slo, N\u0026aacute;pověda\u003c/p\u003e"
+    }
+  },
+  {
+    "rqs": {
+      "rqmList": [
+        {
+          "rqm": {
+            "prefix": "RQM.03.01",
+            "name": "Odkaz na KIV/OKS",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eFunkčn\u0026iacute; odkaz na webovou str\u0026aacute;nku s informacemi o předmětu KIV/OKS (na univerzitn\u0026iacute;m Port\u0026aacute;lu)\u003c/p\u003e",
+            "category": "undefined"
+          }
+        },
+        {
+          "rqm": {
+            "prefix": "RQM.03.02",
+            "name": "Odkaz na KIV",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eFunkčn\u0026iacute; odkaz na webovou str\u0026aacute;nku KIV - http://www.kiv.zcu.cz/\u003c/p\u003e",
+            "category": "undefined"
+          }
+        },
+        {
+          "rqm": {
+            "prefix": "RQM.03.03",
+            "name": "Odkaz na ZČU",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eFunkčn\u0026iacute; odkaz na webovou str\u0026aacute;nku ZČU - http://www.zcu.cz/\u003c/p\u003e",
+            "category": "undefined"
+          }
+        }
+      ],
+      "prefix": "RQS.03",
+      "name": "Stránka Úvod",
+      "description": "\u003cp\u003eStr\u0026aacute;nka \u0026Uacute;vod\u003c/p\u003e"
+    }
+  },
+  {
+    "rqs": {
+      "rqsList": [
+        {
+          "rqs": {
+            "rqmList": [
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.01",
+                  "name": "Fakulta",
+                  "criticality": "undefined",
+                  "description": "\u003cul\u003e\u003cli\u003epovinn\u0026aacute; položka\u003c/li\u003e\u003cli\u003etool-tip: \u003cstrong\u003eVyberte fakultu\u003c/strong\u003e\u003c/li\u003e\u003cli\u003erealizov\u0026aacute;na pomoc\u0026iacute; v\u0026yacute;běrov\u0026eacute;ho seznamu s položkami:\u003cul\u003e\u003cli\u003e\u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFEK - Fakulta ekonomick\u0026aacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFEL - Fakulta elektrotechnick\u0026aacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFF - Fakulta filosofick\u0026aacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFPE - Fakulta pedagogick\u0026aacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFST - Fakulta strojn\u0026iacute;\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003epoložka \u003cstrong\u003e--- neuvedeno ---\u003c/strong\u003e je předvybr\u0026aacute;na\u003cbr /\u003e\u0026nbsp;\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.08",
+                  "name": "Vymaž",
+                  "criticality": "undefined",
+                  "description": "\u003cul\u003e\u003cli\u003erealizov\u0026aacute;no pomoc\u0026iacute; tlač\u0026iacute;tka\u003c/li\u003e\u003cli\u003etool-tip: \u003cstrong\u003eVymaz\u0026aacute;n\u0026iacute; v\u0026scaron;ech hodnot\u003c/strong\u003e\u003c/li\u003e\u003cli\u003epo\u0026scaron;le zpr\u0026aacute;vu serveru\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.02",
+                  "name": "Rok nástupu na Z?U",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003epovinn\u0026aacute; polozka\u003cbr /\u003e\ntool-tip: Zadejte posledn\u0026iacute; dvojc\u0026iacute;sl\u0026iacute; kalend\u0026aacute;rn\u0026iacute;ho roku\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;realizov\u0026aacute;na pomoc\u0026iacute; vstupn\u0026iacute;ho pole\u003cbr /\u003e\nposledn\u0026iacute; dvojc\u0026iacute;sl\u0026iacute; roku n\u0026aacute;stupu na studia\u003cbr /\u003e\n\u0026nbsp; \u0026nbsp;vzdy dve\u0026nbsp;c\u0026iacute;slice vcetne\u0026nbsp;pr\u0026iacute;padn\u0026eacute; prvn\u0026iacute; nuly\u003cbr /\u003e\n\u0026nbsp; \u0026nbsp; \u0026nbsp; nev\u0026yacute;znamov\u0026aacute; (prvn\u0026iacute;) nula je povinn\u0026aacute;\u003cbr /\u003e\n\u0026nbsp; \u0026nbsp;hodnota 00 je povolena a ud\u0026aacute;v\u0026aacute; rok 2000\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; pole m\u0026aacute; zobrazenou n\u0026aacute;povedu form\u0026aacute;tu pomoc\u0026iacute; hodnoty 08\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; tato hodnota nen\u0026iacute; predvyplnen\u0026iacute;\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.03",
+                  "name": "Typ studia",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003epovinna polozka\u003c/p\u003e\n\n\u003cp\u003etool-tip: Vyberte typ studia\u003c/p\u003e\n\n\u003cp\u003erealizace pomoci vyberoveho seznamu s polozkami:\u003c/p\u003e\n\n\u003cp\u003eBakalarsky\u003c/p\u003e\n\n\u003cp\u003eNavazujici\u003c/p\u003e\n\n\u003cp\u003eMagistersky\u003c/p\u003e\n\n\u003cp\u003eDoktorsky\u003c/p\u003e\n\n\u003cp\u003ePolozka bakalarsky je predvybrana\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.04",
+                  "name": "Pořadové číslo",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003epovinna polozka\u003c/p\u003e\n\n\u003cp\u003etool-tip: Zadejte nezaporne cele cislo, max. 4 cislice.\u003c/p\u003e\n\n\u003cp\u003erealizovano pomoci vstupniho pole\u003c/p\u003e\n\n\u003cp\u003e-jsou ignorovany bile znaky na zacatku a na konci retezce, jsou bez varovani odstraneny\u003c/p\u003e\n\n\u003cp\u003enezaporne ctyrrmistne cislo udavajici poradi studenta podle abecedy v rocniku\u003c/p\u003e\n\n\u003cp\u003e-vzdy 1 - 4 cislice vcetne nevyznamovych nul\u003c/p\u003e\n\n\u003cp\u003ehodnota prvniho poradi je 0001\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.05",
+                  "name": "Forma studia",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003epovinna polozka\u003c/p\u003e\n\n\u003cp\u003etool-tip: Vyberte formu studia\u003c/p\u003e\n\n\u003cp\u003e- prezencni\u003c/p\u003e\n\n\u003cp\u003e- kombinovana\u003c/p\u003e\n\n\u003cp\u003e- distancni\u003c/p\u003e\n\n\u003cp\u003eneni predvybrana zadna polozka\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.06",
+                  "name": "Zahraniční student",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003enepovinna polozka\u003c/p\u003e\n\n\u003cp\u003etool-tip: Zaskrtnete, jedna-li se o zahranicniho studenta\u003c/p\u003e\n\n\u003cp\u003erealizovano pomoci check-boxu\u003c/p\u003e\n\n\u003cp\u003epo spusteni aplikace neni polozka vybrana\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.01.07",
+                  "name": "Generuj osobní číslo",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003erealizovano pomoci tlacitka\u003c/p\u003e\n\n\u003cp\u003etool-tip: stisknete po zadani vsech hodnot\u003c/p\u003e\n\n\u003cp\u003eodesle zadane hodnoty na server\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              }
+            ],
+            "prefix": "RQS.04.01",
+            "name": "Položky formuláře",
+            "description": "\u003cp\u003eSpecifikuje v\u0026scaron;echny položky formul\u0026aacute;ře a jejich pořad\u0026iacute;\u003c/p\u003e"
+          }
+        },
+        {
+          "rqs": {
+            "rqmList": [
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.01",
+                  "name": "Fakulta",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003eVyzkou\u0026scaron;et možnosti pro každou fakultu\u003c/p\u003e\u003cul\u003e\u003cli\u003eA \u003d FAV - Fakulta aplikovan\u0026yacute;ch věd\u003c/li\u003e\u003cli\u003eD \u003d FDU - Fakulta designu a uměn\u0026iacute; Ladislava Sutnara\u003c/li\u003e\u003cli\u003eK \u003d FEK - Fakulta ekonomick\u0026aacute;\u003c/li\u003e\u003cli\u003eE \u003d FEL - Fakulta elektrotechnick\u0026aacute;\u003c/li\u003e\u003cli\u003eF \u003d FF - Fakulta filosofick\u0026aacute;\u003c/li\u003e\u003cli\u003eP \u003d FPE - Fakulta pedagogick\u0026aacute;\u003c/li\u003e\u003cli\u003eR \u003d FPR - Fakulta pr\u0026aacute;vnick\u0026aacute;\u003c/li\u003e\u003cli\u003eS \u003d FST - Fakulta strojn\u0026iacute;\u003c/li\u003e\u003cli\u003eZ \u003d FZS - Fakulta zdravotnick\u0026yacute;ch studi\u0026iacute;\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.06",
+                  "name": "Zahraniční student",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003eVyzkou\u0026scaron;et možnost pro zahraničn\u0026iacute;ho studenta - na konci osobn\u0026iacute;ho č\u0026iacute;sla je I\u003c/p\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.02",
+                  "name": "Rok nástupu na ZČU",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003eVyzkou?et mo?nosti pro t?\u0026iacute;du ekvivalence a hrani?n\u0026iacute; hodnoty dvoj?\u0026iacute;sl\u0026iacute; kalend\u0026aacute;?n\u0026iacute;ho roku\u003c/p\u003e\n\n\u003cp\u003eposledn\u0026iacute; dvoj?\u0026iacute;sl\u0026iacute; roku n\u0026aacute;stupu na studia\u003cbr /\u003e\nv?dy dv? ?\u0026iacute;slice v?etn? p?\u0026iacute;padn\u0026eacute; prvn\u0026iacute; nuly\u003c/p\u003e\n\n\u003cp\u003enev\u0026yacute;znamov\u0026aacute; (prvn\u0026iacute;) nula je povinn\u0026aacute;\u003cbr /\u003e\nhodnota 00 je povolena a ud\u0026aacute;v\u0026aacute; rok 2000\u003cbr /\u003e\njsou ignorov\u0026aacute;ny b\u0026iacute;l\u0026eacute; znaky na za?\u0026aacute;tku a na konci zadan\u0026eacute;ho ?et?zce\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.03",
+                  "name": "Typ studia",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003eVyzkou\u0026scaron;et možnosti pro každou položku v\u0026yacute;běrov\u0026eacute;ho seznamu:\u003c/p\u003e\n\n\u003cp\u003eB \u003d bakal\u0026aacute;řsk\u0026yacute;\u003cbr /\u003e\nN \u003d navazuj\u0026iacute;c\u0026iacute;\u003cbr /\u003e\nP \u003d doktorsk\u0026yacute;\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; M \u003d magistersk\u0026yacute;\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.04",
+                  "name": "Pořadové číslo",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003eVyzkou\u0026scaron;et možnosti pro tř\u0026iacute;du ekvivalence a hraničn\u0026iacute; hodnoty nez\u0026aacute;porn\u0026eacute;ho cel\u0026eacute;ho č\u0026iacute;sla, max. 4 č\u0026iacute;slice\u003cbr /\u003e\nnez\u0026aacute;porn\u0026eacute; čtyřm\u0026iacute;stn\u0026eacute; č\u0026iacute;slo ud\u0026aacute;vaj\u0026iacute;c\u0026iacute; pořad\u0026iacute; studenta podle abecedy v ročn\u0026iacute;ku\u003cbr /\u003e\nvždy jedna až čtyři č\u0026iacute;slice včetně př\u0026iacute;padn\u0026yacute;ch nev\u0026yacute;znamov\u0026yacute;ch nul\u003cbr /\u003e\nnev\u0026yacute;znamov\u0026eacute; nuly jsou nepovinn\u0026eacute;\u003cbr /\u003e\nhodnota prvn\u0026iacute;ho pořad\u0026iacute; je 0001\u003cbr /\u003e\npořad\u0026iacute; s hodnotou 0 nen\u0026iacute; povoleno\u003cbr /\u003e\njsou ignorov\u0026aacute;ny b\u0026iacute;l\u0026eacute; znaky na zač\u0026aacute;tku a na konci zadan\u0026eacute;ho řetězce\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.02.05",
+                  "name": "Forma studia",
+                  "criticality": "minor",
+                  "description": "\u003cp\u003eVyzkou\u0026scaron;et možnosti pro každou položku bloku radio-buttonů s hodnotami:\u003cbr /\u003e\nP \u003d prezenčn\u0026iacute;\u003cbr /\u003e\nK \u003d kombinovan\u0026aacute;\u003cbr /\u003e\nD \u003d distančn\u0026iacute;\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              }
+            ],
+            "prefix": "RQS.04.02",
+            "name": "Funkčnost - možnosti parametrů",
+            "description": "\u003cp\u003eMožn\u0026eacute; hodnoty jednotliv\u0026yacute;ch vstupn\u0026iacute;ch parametrů\u003c/p\u003e"
+          }
+        },
+        {
+          "rqs": {
+            "rqmList": [
+              {
+                "rqm": {
+                  "prefix": "RQM.04.03.01",
+                  "name": "Fakulta",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003ePokud nen\u0026iacute; po stisku tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e vybr\u0026aacute;na někter\u0026aacute; z nab\u0026iacute;zen\u0026yacute;ch fakult:\u003c/p\u003e\u003cul\u003e\u003cli\u003ev\u0026yacute;běrov\u0026yacute; seznam bude červeně or\u0026aacute;mov\u0026aacute;n\u003c/li\u003e\u003cli\u003evpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; \u003cstrong\u003eFakulta nezvolena\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.03.05",
+                  "name": "Generuj osobní číslo",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003ePo stisku tlač\u0026iacute;tka \u003cstrong\u003eGeneruj osobn\u0026iacute; č\u0026iacute;slo\u003c/strong\u003e v př\u0026iacute;padě zad\u0026aacute;n\u0026iacute;:\u003c/p\u003e\u003cul\u003e\u003cli\u003enespr\u0026aacute;vn\u0026yacute;ch hodnot:\u003cul\u003e\u003cli\u003evyp\u0026iacute;\u0026scaron;e hlavn\u0026iacute; chybov\u0026eacute; hl\u0026aacute;\u0026scaron;en\u0026iacute;\u003cul\u003e\u003cli\u003eje-li jak\u0026aacute;koliv vstupn\u0026iacute; položka chybně vyplněna, vyp\u0026iacute;\u0026scaron;e pod formul\u0026aacute;řem červeně: \u003cstrong\u003eChybn\u0026eacute; vstupy - opravte pros\u0026iacute;m zv\u0026yacute;razněn\u0026eacute; položky\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003ekažd\u0026aacute; konkr\u0026eacute;tn\u0026iacute; vstupn\u0026iacute; položka s nevalidn\u0026iacute;mi hodnotami je zv\u0026yacute;razněna a je u n\u0026iacute; vyps\u0026aacute;n podrobněj\u0026scaron;\u0026iacute; popis chyby\u003cul\u003e\u003cli\u003ezpůsob zv\u0026yacute;razněn\u0026iacute; a jednotliv\u0026aacute; detailn\u0026iacute; chybov\u0026aacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; jsou pops\u0026aacute;na u každ\u0026eacute; položky - viz jednotliv\u0026eacute; alternativn\u0026iacute; toky\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003cli\u003enevyplněn\u0026eacute;ho jak\u0026eacute;hokoliv povinn\u0026eacute;ho pole:\u003cul\u003e\u003cli\u003etoto se považuje za jeden z př\u0026iacute;padů v\u0026yacute;\u0026scaron;e popsan\u0026yacute;ch nespr\u0026aacute;vn\u0026yacute;ch hodnot\u003c/li\u003e\u003c/ul\u003e\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.03.02",
+                  "name": "Rok nástupu na ZČU",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003ePokud po stisku tla?\u0026iacute;tka Generuj osobn\u0026iacute; ?\u0026iacute;slo:\u003cbr /\u003e\nnen\u0026iacute; zad\u0026aacute;na ?\u0026aacute;dn\u0026aacute; hodnota\u003cbr /\u003e\nbude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no ?erven? a vpravo se v ?erven\u0026eacute;m r\u0026aacute;me?ku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003cbr /\u003e\njsou zad\u0026aacute;ny pouze b\u0026iacute;l\u0026eacute; znaky\u003cbr /\u003e\nbude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no ?erven? a vpravo se v ?erven\u0026eacute;m r\u0026aacute;me?ku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003c/p\u003e\n\n\u003cp\u003eje zad\u0026aacute;na pouze jedna dekadick\u0026aacute; č\u0026iacute;slice\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Je požadov\u0026aacute;no dvojč\u0026iacute;sl\u0026iacute;\u003cbr /\u003e\n jsou zad\u0026aacute;ny v\u0026iacute;ce než dvě dekadick\u0026eacute; č\u0026iacute;slice\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Je požadov\u0026aacute;no dvojč\u0026iacute;sl\u0026iacute;\u003cbr /\u003e\n je zad\u0026aacute;na neč\u0026iacute;seln\u0026aacute; hodnota\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003cbr /\u003e\n je zad\u0026aacute;no znam\u0026eacute;nko (+1 nebo -1)\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003cbr /\u003e\n je použita desetinn\u0026aacute; tečka nebo č\u0026aacute;rka (.1 1. ,1 1,)\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003cbr /\u003e\n je použita vědeck\u0026aacute; notace v libovoln\u0026eacute; formě (1e2, 1E2, 1e-2, 1E-2)\u003cbr /\u003e\no bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.03.03",
+                  "name": "Typ studia",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003enen\u0026iacute; zad\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003cbr /\u003e\n-jsou zad\u0026aacute;ny pouze b\u0026iacute;l\u0026eacute; znaky\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Pr\u0026aacute;zdn\u0026yacute; vstup\u003cbr /\u003e\nje zad\u0026aacute;na nula jednou až čtyřmi č\u0026iacute;slicemi (0, 00, 000, 0000)\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nula nen\u0026iacute; povolena\u003cbr /\u003e\njsou zad\u0026aacute;ny v\u0026iacute;ce než čtyři dekadick\u0026eacute; č\u0026iacute;slice\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026eacute; č\u0026iacute;slo v něm zůstane a vpravo se v červen\u0026eacute;mr\u0026aacute;mečku objev\u0026iacute; V\u0026iacute;ce než čtyři č\u0026iacute;slice\u003cbr /\u003e\nje zad\u0026aacute;na neč\u0026iacute;seln\u0026aacute; hodnota\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nen\u0026iacute; dekadick\u0026eacute; č\u0026iacute;slo\u003cbr /\u003e\nje zad\u0026aacute;no znam\u0026eacute;nko (+1 nebo -1)\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute; mr\u0026aacute;mečku objev\u0026iacute; Znam\u0026eacute;nko nen\u0026iacute; povoleno\u003cbr /\u003e\nje použita desetinn\u0026aacute; tečka nebo č\u0026aacute;rka (.1 1. ,1 1,)\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Re\u0026aacute;ln\u0026eacute; č\u0026iacute;slo nen\u0026iacute; povoleno\u003cbr /\u003e\nje použita vědeck\u0026aacute; notace v libovoln\u0026eacute; formě (1e2, 1E2, 1e-2, 1E-2)\u003cbr /\u003e\n-bude vstupn\u0026iacute; pole or\u0026aacute;mov\u0026aacute;no červeně, zadan\u0026yacute; řetězec v něm zůstane a vpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Nepovolen\u0026yacute; z\u0026aacute;pis č\u0026iacute;sla\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              },
+              {
+                "rqm": {
+                  "prefix": "RQM.04.03.04",
+                  "name": "Pořadové číslo",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003ePokud nen\u0026iacute; po stisku tlač\u0026iacute;tka Generuj osobn\u0026iacute; č\u0026iacute;slo vybr\u0026aacute;na někter\u0026aacute; z nab\u0026iacute;zen\u0026yacute;ch forem studia\u003cbr /\u003e\nvpravo se v červen\u0026eacute;m r\u0026aacute;mečku objev\u0026iacute; Forma nezvolena\u003c/p\u003e\n",
+                  "category": "undefined"
+                }
+              }
+            ],
+            "prefix": "RQS.04.03",
+            "name": "Funkčnost - alternativní toky",
+            "description": "\u003cp\u003eAlternativn\u0026iacute; toky formul\u0026aacute;ře\u003c/p\u003e"
+          }
+        },
+        {
+          "rqs": {
+            "rqmList": [
+              {
+                "rqm": {
+                  "prefix": "RQM.04.04.01",
+                  "name": "Vymazání formuláře",
+                  "criticality": "undefined",
+                  "description": "\u003cp\u003ePo stisku tlač\u0026iacute;tka \u003cstrong\u003eVymaž\u003c/strong\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003evymaže obě vstupn\u0026iacute; pole a nastav\u0026iacute; jim zobrazen\u0026eacute; n\u0026aacute;povědy\u003c/li\u003e\u003cli\u003eoba v\u0026yacute;běrov\u0026eacute; seznamy nastav\u0026iacute; na předvyplněn\u0026eacute; hodnody\u003c/li\u003e\u003cli\u003ev bloku radio-buttonů nebude vybr\u0026aacute;na ž\u0026aacute;dn\u0026aacute; hodnota\u003c/li\u003e\u003cli\u003echeck-box nebude vybr\u0026aacute;n\u003c/li\u003e\u003cli\u003ev\u0026scaron;echna př\u0026iacute;padn\u0026aacute; chybov\u0026aacute; hl\u0026aacute;\u0026scaron;en\u0026iacute; vypsan\u0026aacute; při předchoz\u0026iacute;m generov\u0026aacute;n\u0026iacute; budou vymaz\u0026aacute;na\u003c/li\u003e\u003cli\u003ebude vymaz\u0026aacute;no i př\u0026iacute;padn\u0026eacute; v\u0026yacute;sledn\u0026eacute; vygenerovan\u0026eacute; osobn\u0026iacute; č\u0026iacute;slo včetně sv\u0026eacute;ho labelu\u003c/li\u003e\u003c/ul\u003e",
+                  "category": "undefined"
+                }
+              }
+            ],
+            "prefix": "RQS.04.04",
+            "name": "Funkčnost - Vymaž",
+            "description": "\u003cp\u003eVymaže položky formul\u0026aacute;ře\u003c/p\u003e"
+          }
+        }
+      ],
+      "prefix": "RQS.04",
+      "name": "Stránka Generování",
+      "description": "\u003cp\u003eStr\u0026aacute;nka Generov\u0026aacute;n\u0026iacute;\u003c/p\u003e"
+    }
+  },
+  {
+    "rqs": {
+      "rqmList": [
+        {
+          "rqm": {
+            "prefix": "RQM.05.01",
+            "name": "Odkaz na Generování",
+            "criticality": "undefined",
+            "description": "\u003cp\u003eFunkčn\u0026iacute; odkaz na str\u0026aacute;nku Generov\u0026aacute;n\u0026iacute;\u003c/p\u003e",
+            "category": "undefined"
+          }
+        }
+      ],
+      "prefix": "RQS.05",
+      "name": "Stránka Nápověda",
+      "description": "\u003cp\u003eStr\u0026aacute;nka N\u0026aacute;pověda\u003c/p\u003e"
+    }
+  }
+]
