@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="cs"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OsobniCislo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">oks05 in oks-prj-05 Coverage Results</a> &gt; <a href="index.source.html" class="el_package">oks05</a> &gt; <span class="el_source">OsobniCislo.java</span></div><h1>OsobniCislo.java</h1><pre class="source lang-java linenums">package oks05;
+
+import java.text.Collator;
+import java.util.Locale;
+
+/**
+ * Entitní třída jednoho zpracovaného osobního čísla
+ * 
+ * @author P.Herout
+ *
+ */
+
+public class OsobniCislo implements Comparable&lt;OsobniCislo&gt; {
+
+  /**
+   * Definice kolátoru pro české řazení řetězců&lt;br/&gt;
+   * Bude využit při řazení osobních čísel podle příjmení a jména
+   */
+<span class="fc" id="L19">  private static final Collator COLLATOR = Collator.getInstance(new Locale(&quot;cs&quot;, &quot;CZ&quot;));</span>
+  
+  /** řetězec předpřipraveného pořadového čísla */
+  private static final String PREDPRIPRAVENO = &quot;xxxx&quot;;
+  
+  // části osobního čísla - pokud je formát osobního čísla chybně, mohou obsahovat ZNAK_CHYBY
+  
+  /** fakulta */
+  public String fakulta;
+
+  /** rok nástupu */
+  public String rokNastupu;
+
+  /** typ studia */
+  private TypStudia typStudia;
+
+  /** forma studia */
+  public String formaStudia;
+
+  /** nepovinná část */
+  public String nepovinne;
+
+  /** příjmení studenta - velkými písmeny */
+  public String prijmeni;
+
+  /** jméno studenta - první písmeno velké, ostatní malá */
+  public String jmeno;
+
+  
+  /** generovaný výsledek */
+<span class="fc" id="L49">  public String vysledek = Konstanty.PRAZDNY;</span>
+
+  /** formát zadání je správný */
+<span class="fc" id="L52">  private boolean platnyFormat = true;</span>
+
+  
+  /** 
+   * Naplní atributy&lt;br/&gt;
+   * v případě chybného formátu je nahradí &lt;code&gt;ZNAK_CHYBY&lt;/code&gt;&lt;br/&gt;
+   * Toto osobní číslo je předpřipravené - pořadové číslo je PREDPRIPRAVENO.&lt;br/&gt;
+   * K dokončení mu musí být vygenerováno pořadové číslo.
+   * 
+   * @param radkaZadani načtená řádka ze souboru - může být v chybném formátu
+   */
+<span class="fc" id="L63">  public OsobniCislo(String radkaZadani) {</span>
+<span class="fc" id="L64">    naplnAtributy(radkaZadani);</span>
+<span class="fc" id="L65">    vysledek = fakulta + rokNastupu + typStudia.getZkratka() + PREDPRIPRAVENO + formaStudia + nepovinne;</span>
+<span class="fc" id="L66">  }</span>
+  
+  /**
+   * Porovná příjmení proti sobě. V případě rovnosti porovnává jména.&lt;br/&gt;
+   * Zajišťuje přirozené řazení podle české normy.
+   * 
+   * @param oc osobní číslo porovnávaného studenta
+   * @return hodnoty přirozeného řazení
+   */
+  @Override
+  public int compareTo(OsobniCislo oc) {
+<span class="fc" id="L77">    int vysledek = COLLATOR.compare(this.prijmeni, oc.prijmeni);</span>
+<span class="fc bfc" id="L78" title="All 2 branches covered.">    if (vysledek == 0) {</span>
+<span class="fc" id="L79">      return COLLATOR.compare(this.jmeno, oc.jmeno);</span>
+    }
+    else {
+<span class="fc" id="L82">      return vysledek;</span>
+    }
+  }
+
+  /**
+   * Textová informace o instanci
+   * 
+   * @return textovou informaci o instanci
+   */
+  @Override
+  public String toString() {
+<span class="fc" id="L93">    String pom = vysledek + &quot; &lt;= &quot; + prijmeni + &quot; &quot; + jmeno;</span>
+<span class="fc bfc" id="L94" title="All 2 branches covered.">    if (platnyFormat == false) {</span>
+<span class="fc" id="L95">      pom += &quot; (&quot; + Konstanty.TEXT_CHYBNY_FORMAT + &quot;)&quot;;</span>
+    }
+<span class="fc" id="L97">    return pom;</span>
+  }
+  
+  /**
+   * Vrací osobní číslo, které ale nemusí být platné
+   * 
+   * @return osobní číslo
+   */
+  public String getOsobniCislo() {
+<span class="fc" id="L106">    return vysledek;</span>
+  }
+  
+  /**
+   * Vrací informaci o tom, zda je osobní číslo platné
+   * 
+   * @return &lt;code&gt;true&lt;/code&gt;, je-li osobní číslo platné, &lt;br/&gt;
+   * nebo &lt;code&gt;false&lt;/code&gt;, pokud ještě nebylo osobní číslo vygenerováno nebo je některý z formátů neplatný
+   */
+  public boolean isPlatneOsobniCislo() {
+<span class="fc bfc" id="L116" title="All 2 branches covered.">    if (platnyFormat == false ||</span>
+<span class="fc bfc" id="L117" title="All 2 branches covered.">            vysledek.contains(PREDPRIPRAVENO) == true) {</span>
+<span class="fc" id="L118">      return false;</span>
+    }
+    else {
+<span class="fc" id="L121">      return true;</span>
+    }
+  }
+  
+  /**
+   * Vrací informaci o tom, zda jsou všechny formáty všech částí osobního čísla platné
+   * 
+   * @return &lt;code&gt;true&lt;/code&gt;, jsou-li formáty platné, &lt;br/&gt;
+   * nebo &lt;code&gt;false&lt;/code&gt;, je-li některý z formátů neplatný
+   */
+  public boolean isPlatnyFormat() {
+<span class="fc" id="L132">    return this.platnyFormat;</span>
+  }
+  
+  /**
+   * Vrací typ studia
+   * 
+   * @return typ studia
+   */
+  public TypStudia getTypStudia() {
+<span class="fc" id="L141">    return this.typStudia;</span>
+  }
+  
+  /**
+   * Vrací fakultu
+   * 
+   * @return fakulta
+   */
+  public String getFakulta() {
+<span class="fc" id="L150">    return fakulta;</span>
+  }
+  
+  /**
+   * Složení výsledku z jednotlivých částí
+   *  
+   * @param poradoveCislo čtyřmístné číslo s nevýznamovými nulami
+   */
+  public void generujOsobniCislo(String poradoveCislo) {    
+<span class="fc" id="L159">    vysledek = fakulta + rokNastupu + typStudia.getZkratka() + poradoveCislo + formaStudia + nepovinne;</span>
+<span class="fc" id="L160">  }</span>
+  
+  /**
+   * Naplní jednotlivé části osobního čísla a stanoví platnost formátu
+   *  
+   * @param radkaZadani řádka načtená ze vstupního souboru 
+   */
+  public void naplnAtributy(String radkaZadani) {
+<span class="fc" id="L168">    String[] ocekavano = new String[Konstanty.POCET_CASTI];</span>
+<span class="fc bfc" id="L169" title="All 2 branches covered.">    for (int i = 0; i &lt; ocekavano.length; i++) {</span>
+<span class="fc" id="L170">      ocekavano[i] = null;</span>
+    }
+    
+<span class="fc bfc" id="L173" title="All 2 branches covered.">    if (radkaZadani != null &amp;&amp;</span>
+<span class="fc bfc" id="L174" title="All 2 branches covered.">        radkaZadani.trim().length() &gt; 0) {</span>
+      // vstup není prázdný
+      
+      // částí může být méně, než je očekáváno, pak se bude předávat null
+<span class="fc" id="L178">      String[] casti = radkaZadani.split(Konstanty.ZNAK_ODDELOVACE);</span>
+      
+<span class="fc bfc" id="L180" title="All 2 branches covered.">      for (int i = 0; i &lt; casti.length; i++) {</span>
+<span class="fc" id="L181">        casti[i] = casti[i].trim();</span>
+        // vše velkými písmeny, kromě jména
+<span class="fc bfc" id="L183" title="All 2 branches covered.">        if (i != 1) {</span>
+<span class="fc" id="L184">          casti[i] = casti[i].toUpperCase();</span>
+        }
+<span class="fc bfc" id="L186" title="All 2 branches covered.">        if (i &lt; Konstanty.POCET_CASTI) {</span>
+          // více údajů na vstupní řádce - zahazují se
+<span class="fc" id="L188">          ocekavano[i] = casti[i];</span>
+        }
+      }
+    }
+<span class="fc" id="L192">    zpracujPrijmeni(ocekavano[0]);</span>
+<span class="fc" id="L193">    zpracujJmeno(ocekavano[1]);</span>
+<span class="fc" id="L194">    zpracujFakulta(ocekavano[2]);</span>
+<span class="fc" id="L195">    zpracujRokNastupu(ocekavano[3]);</span>
+<span class="fc" id="L196">    zpracujTypStudia(ocekavano[4]);</span>
+<span class="fc" id="L197">    zpracujFormaStudia(ocekavano[5]);</span>
+<span class="fc" id="L198">    zpracujNepovinne(ocekavano[6]);</span>
+<span class="fc" id="L199">  }</span>
+    
+  /**
+   * Naplní &lt;code&gt;prijmeni&lt;/code&gt; buď skutečným příjmením&lt;br /&gt;
+   * nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt;&lt;br /&gt;
+   * příjmení je VELKÝMI PÍSMENY&lt;br /&gt;
+   * (a současně nastaví &lt;code&gt;platnyFormat = false&lt;/code&gt;)
+   * 
+   * @param prijmeni skutečné příjmení nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujPrijmeni(String prijmeni) {
+<span class="fc bfc" id="L210" title="All 2 branches covered.">    if (prijmeni != null) {</span>
+<span class="fc" id="L211">      this.prijmeni = prijmeni;</span>
+    }
+    else {
+<span class="fc" id="L214">      this.prijmeni = Konstanty.ZNAK_CHYBY;</span>
+<span class="fc" id="L215">      this.platnyFormat = false;</span>
+    }
+<span class="fc" id="L217">  }</span>
+  
+  /**
+   * Naplní &lt;code&gt;jmeno&lt;/code&gt; buď skutečným jménem nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt;&lt;br/&gt;
+   * Jméno bude s prvním velkým písmenem, ostatní budou malá
+   * 
+   * @param jmeno skutečné jméno nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujJmeno(String jmeno) {
+<span class="fc bfc" id="L226" title="All 2 branches covered.">    if (jmeno != null) {</span>
+      // jméno má pouze první velké písmeno
+<span class="fc" id="L228">      String prvni = jmeno.substring(0, 1).toUpperCase();</span>
+<span class="fc" id="L229">      String zbytek = jmeno.substring(1).toLowerCase();</span>
+      
+<span class="fc" id="L231">      this.jmeno = prvni + zbytek;</span>
+<span class="fc" id="L232">    }</span>
+    else {
+<span class="fc" id="L234">      this.jmeno = Konstanty.ZNAK_CHYBY;</span>
+<span class="fc" id="L235">      this.platnyFormat = false;</span>
+    }
+<span class="fc" id="L237">  }</span>
+  
+  /**
+   * Naplní &lt;code&gt;rokNastupu&lt;/code&gt; buď posledním dvojčíslím roku nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt;&lt;br/&gt;
+   * 
+   * @param rokNastupu skutečný rok nástupu nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujRokNastupu(String rokNastupu) {
+<span class="fc bfc" id="L245" title="All 2 branches covered.">    if (rokNastupu == null) {</span>
+<span class="fc" id="L246">      chybnyRokNastupu();</span>
+<span class="fc" id="L247">      return;</span>
+    }
+<span class="fc bfc" id="L249" title="All 2 branches covered.">    if (rokNastupu.length() != 4) {</span>
+      // není čtyřmístný
+<span class="fc" id="L251">      chybnyRokNastupu();</span>
+<span class="fc" id="L252">      return;</span>
+    }
+      
+    try {
+<span class="fc" id="L256">      Integer.parseInt(rokNastupu);</span>
+<span class="fc" id="L257">    } catch (NumberFormatException e) {</span>
+      // není to číslo
+<span class="fc" id="L259">      chybnyRokNastupu();</span>
+<span class="fc" id="L260">      return;</span>
+<span class="fc" id="L261">    }</span>
+
+    // je to čtyřmístné číslo
+<span class="fc" id="L264">    this.rokNastupu = rokNastupu.substring(2);</span>
+<span class="fc" id="L265">  }</span>
+
+  /**
+   * Naplní &lt;code&gt;rokNastupu&lt;/code&gt; &lt;code&gt;ZNAK_CHYBY&lt;/code&gt; a nastaví chybu formátu
+   */
+  private void chybnyRokNastupu() {
+<span class="fc" id="L271">    this.rokNastupu = Konstanty.ZNAK_CHYBY;</span>
+<span class="fc" id="L272">    this.platnyFormat = false;    </span>
+<span class="fc" id="L273">  }</span>
+ 
+  /**
+   * Pokud zkratka fakulty patří do množiny povolených zkratek fakult, 
+   * naplní &lt;code&gt;fakulta&lt;/code&gt; písmenem fakulty&lt;br/&gt;
+   * nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt; v opačných případech
+   *   
+   * @param fakulta řetězec, ve kterém by měla být platná zkratka fakulty nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujFakulta(String fakulta) {
+<span class="fc bfc" id="L283" title="All 2 branches covered.">    for (String[] fakulty : Konstanty.PLATNE_FAKULTY) {</span>
+<span class="fc bfc" id="L284" title="All 2 branches covered.">      if (fakulty[0].equals(fakulta) == true) {</span>
+<span class="fc" id="L285">        this.fakulta = fakulty[1];</span>
+<span class="fc" id="L286">        return;</span>
+      }     
+    }
+<span class="fc" id="L289">    this.fakulta = Konstanty.ZNAK_CHYBY;</span>
+<span class="fc" id="L290">    this.platnyFormat = false;        </span>
+<span class="fc" id="L291">  }</span>
+  
+  
+  /**
+   * Pokud zkratka typu studia patří do výčtového typu povolených zkratek typů,
+   * naplní &lt;code&gt;typStudia&lt;/code&gt; příslušným enumem&lt;br/&gt;
+   * nebo &lt;code&gt;TypStudia.NEPLATNY&lt;/code&gt; v opačných případech
+   *   
+   * @param typStudia řetězec, ve kterém by měla být platná zkratka typu studia nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujTypStudia(String typStudia) {
+<span class="fc bfc" id="L302" title="All 2 branches covered.">    for (TypStudia typ : TypStudia.values()) {</span>
+<span class="fc bfc" id="L303" title="All 2 branches covered.">      if (typ.getZkratka().equals(typStudia) == true) {</span>
+<span class="fc" id="L304">        this.typStudia = typ;</span>
+<span class="fc" id="L305">        return;</span>
+      }     
+    }
+<span class="fc" id="L308">    this.typStudia = TypStudia.NEPLATNY;</span>
+<span class="fc" id="L309">    this.platnyFormat = false;        </span>
+<span class="fc" id="L310">  }</span>
+  
+  /**
+   * Pokud zkratka formy studia patří do množiny povolených zkratek forem,
+   * naplní &lt;code&gt;formaStudia&lt;/code&gt; zkratkou formy studia&lt;br/&gt;
+   * nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt; v opačných případech
+   *   
+   * @param formaStudia řetězec, ve kterém by měla být platná zkratka formy studia nebo &lt;code&gt;null&lt;/code&gt;
+   */
+  public void zpracujFormaStudia(String formaStudia) {
+<span class="fc bfc" id="L320" title="All 2 branches covered.">    for (String forma : Konstanty.PLATNE_FORMY_STUDIA) {</span>
+<span class="fc bfc" id="L321" title="All 2 branches covered.">      if (forma.equals(formaStudia) == true) {</span>
+<span class="fc" id="L322">        this.formaStudia = formaStudia;</span>
+<span class="fc" id="L323">        return;</span>
+      }     
+    }
+<span class="fc" id="L326">    this.formaStudia = Konstanty.ZNAK_CHYBY;</span>
+<span class="fc" id="L327">    this.platnyFormat = false;        </span>
+<span class="fc" id="L328">  }</span>
+  
+  /**
+   * Naplní &lt;code&gt;nepovinne&lt;/code&gt; buď existující hodnotou nebo prázdnou hodnotou
+   * @param nepovinne nepovinná část osobního čísla
+   */
+  public void zpracujNepovinne(String nepovinne) {
+<span class="fc bfc" id="L335" title="All 2 branches covered.">    if (nepovinne != null) {</span>
+<span class="fc" id="L336">      this.nepovinne = nepovinne;</span>
+    }
+    else {
+<span class="fc" id="L339">      this.nepovinne = &quot;&quot;;</span>
+    }
+<span class="fc" id="L341">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

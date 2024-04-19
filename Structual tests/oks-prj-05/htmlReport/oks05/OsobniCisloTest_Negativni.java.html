@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="cs"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OsobniCisloTest_Negativni.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">oks05 in oks-prj-05 Coverage Results</a> &gt; <a href="index.source.html" class="el_package">oks05</a> &gt; <span class="el_source">OsobniCisloTest_Negativni.java</span></div><h1>OsobniCisloTest_Negativni.java</h1><pre class="source lang-java linenums">package oks05;
+
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+<span class="fc" id="L8">class OsobniCisloTest_Negativni {</span>
+
+    @Test
+    void testToString() {
+<span class="fc" id="L12">        OsobniCislo oc = new OsobniCislo(&quot;Nový, Adam, fav, 2K14, b, p&quot;);</span>
+<span class="fc" id="L13">        assertEquals(&quot;A?BxxxxP &lt;= NOVÝ Adam (chybně zadáno)&quot;, oc.toString(), &quot;text má být chybný kvůli roku&quot;);</span>
+<span class="fc" id="L14">    }</span>
+
+    @Test
+    void zpracujRokNastupu() {
+<span class="fc" id="L18">        OsobniCislo oc = new OsobniCislo(&quot;Novák, Josef, fav, 20145, b, p, i&quot;);</span>
+<span class="fc" id="L19">        assertFalse(oc.isPlatnyFormat(), &quot;rok nástupu má neplatné číslo!&quot;);</span>
+<span class="fc" id="L20">    }</span>
+
+    @Test
+    void zpracujTypStudia() {
+<span class="fc" id="L24">        OsobniCislo oc = new OsobniCislo(&quot;&quot;);</span>
+<span class="fc" id="L25">        assertEquals(TypStudia.NEPLATNY, oc.getTypStudia(), &quot;Typ studia má být neplatný&quot;);</span>
+<span class="fc" id="L26">    }</span>
+
+    @Test
+    void zpracujNepovinne() {
+<span class="fc" id="L30">        OsobniCislo oc = new OsobniCislo(&quot;Novák, Josef, fav, 2014, b, p, i&quot;);</span>
+<span class="fc" id="L31">        assertEquals(&quot;I&quot;, oc.nepovinne, &quot;osobní číslo obsahuje nepovinný údaj&quot;);</span>
+<span class="fc" id="L32">    }</span>
+
+    @Test
+    void isPlatneOsobniCislo_1(){
+<span class="fc" id="L36">        OsobniCislo oc = new OsobniCislo(null);</span>
+<span class="fc" id="L37">        assertEquals(false ,oc.isPlatneOsobniCislo(), &quot;Přijmení je null&quot;);</span>
+<span class="fc" id="L38">    }</span>
+
+    @Test
+    void isPlatneOsobniCislo_2(){
+<span class="fc" id="L42">        OsobniCislo oc = new OsobniCislo(&quot;Novák, Josef, fav, 2014, b, p, i, b&quot;);</span>
+<span class="fc" id="L43">        assertEquals(true ,oc.isPlatnyFormat());</span>
+<span class="fc" id="L44">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="cs"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Konstanty.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">oks05 in oks-prj-05 Coverage Results</a> &gt; <a href="index.source.html" class="el_package">oks05</a> &gt; <span class="el_source">Konstanty.java</span></div><h1>Konstanty.java</h1><pre class="source lang-java linenums">package oks05;
+
+/**
+ * Knihovní třída pro nastavení všech konstant projektu
+ * 
+ * @author P.Herout
+ *
+ */
+public class Konstanty {
+  
+  /**
+   * privátní konstruktor, aby se zamezilo vytvoření instance
+   */
+  private Konstanty() {
+    // skutečně žádný kód
+  }
+  
+  /** kódování všech použitých souborů */
+  public static final String KODOVANI = &quot;UTF-8&quot;;
+  
+  /** jméno výsledkového souboru */
+  public static final String VYSLEDKOVY_SOUBOR = &quot;vysledky.txt&quot;;
+
+  /** jméno logovacího souboru */
+  public static final String LOGOVACI_SOUBOR = &quot;oks-01-log.txt&quot;;
+
+  /** znak uvozující komentář */
+  public static final String ZNAK_KOMENTARE = &quot;#&quot;;
+
+  /** znak oddělovače hodnot v řádce zadání */
+  public static final String ZNAK_ODDELOVACE = &quot;,&quot;;
+
+  /** znak nahrazující chybný nebo chybějící údaj */
+  public static final String ZNAK_CHYBY = &quot;?&quot;;
+
+  /** dosud nevygenerované osobní číslo */
+  public static final String PRAZDNY = &quot;&quot;;
+  
+  /** počet částí, ze kterých se skládá jedno zadání &quot;Novák, Josef, fav, 2014, b, p, neco&quot; */
+  public static final int POCET_CASTI = 7;
+
+  /** fakulty a jejich znaky */
+<span class="fc" id="L43">  public static final String[][] PLATNE_FAKULTY = { {&quot;FAV&quot;, &quot;A&quot;},</span>
+                                                    {&quot;FEL&quot;, &quot;E&quot;},
+                                                    {&quot;FST&quot;, &quot;S&quot;},
+                                                    {&quot;FPE&quot;, &quot;P&quot;},                                        
+                                                    {&quot;FEK&quot;, &quot;K&quot;},
+                                                    {&quot;FF&quot;,  &quot;F&quot;},
+                                                    {&quot;FPR&quot;, &quot;R&quot;},
+                                                    {&quot;FZS&quot;, &quot;Z&quot;},
+                                                    {&quot;FDU&quot;, &quot;D&quot;},
+                                                  };
+
+  /**
+   * Nalezne znak platný pro fakultu
+   * 
+   * @param fakulta zkratka fakulty
+   * @return znak, pokud je hledaná zkratka fakulty platná, nebo &lt;code&gt;ZNAK_CHYBY&lt;/code&gt; v opačných případech
+   */
+  public static String najdiZnakFakulty(String fakulta) {
+<span class="nc" id="L61">    fakulta = fakulta.toUpperCase();</span>
+<span class="nc bnc" id="L62" title="All 2 branches missed.">    for (String[] fakulty : PLATNE_FAKULTY) {</span>
+<span class="nc bnc" id="L63" title="All 2 branches missed.">      if (fakulty[0].equals(fakulta) == true) {</span>
+<span class="nc" id="L64">        return fakulty[1];</span>
+      }     
+    }
+<span class="nc" id="L67">    return ZNAK_CHYBY;</span>
+  }
+  
+  /** znaky platných forem studia */
+<span class="fc" id="L71">  public static final String[] PLATNE_FORMY_STUDIA = {&quot;P&quot;, &quot;K&quot;, &quot;D&quot;};</span>
+
+  
+  /** text ve výsledkovém souboru - správně */
+  public static final String TEXT_SPRAVNY_FORMAT = &quot;správně zadáno&quot;;
+
+  /** text ve výsledkovém souboru - chybně zadáno */
+  public static final String TEXT_CHYBNY_FORMAT = &quot;chybně zadáno&quot;;
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
