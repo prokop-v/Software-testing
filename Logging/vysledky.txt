@@ -1,0 +1,43 @@
+# Bakalářský
+A14B0001P <= ALDUS Pavel
+A14B0002PI <= DIVOKÝ René
+A14B0003P <= NOVÁK Josef
+A14B0004PI <= ŽELÉ Jakub
+
+# Navazující
+A14N0001K <= PLACEBO Jindřich
+A14N0002K <= PLAHOČENÍ Petr
+A14N0003P <= PLACHTA Jiří
+A14N0004K <= PLÁNIČKA Jan
+A14N0005P <= PLÁNIČKA Jaroslav
+A14N0006P <= PLAŇKA David
+A14N0007P <= PLANKTON Richard
+A14N0008P <= PLÁŠŤ Rudolf
+A14N0009P <= PLAT Michal
+A14N0010P <= PLÁT Josef
+A14N0011K <= PLATNO Václav
+A14N0012P <= PLÁTNO Miloš
+A14N0013P <= PLATNOST Alfréd
+A14N0014P <= PLATNOST Karel
+
+# Doktorský
+A14P0001P <= BYSTROZRAKÝ Martin
+A14P0002P <= DLOUHÝ Roman
+A14P0003P <= ŠIROKÝ Stanislav
+
+# Magisterský
+
+# chybně zadáno
+A14?xxxxP <= CHYBNÝ Dalimil (chybně zadáno)
+A14Bxxxx? <= CHYBNÝ Čestmír (chybně zadáno)
+A14Bxxxx? <= CHYBNÝ Břetislav (chybně zadáno)
+A14?xxxx? <= CHYBNÝ Pravoslav (chybně zadáno)
+A??xxxx? <= CHYBNÝ Radovan (chybně zadáno)
+A?BxxxxP <= CHYBNÝ Drahoslav (chybně zadáno)
+A?BxxxxP <= CHYBNÝ Vladislav (chybně zadáno)
+A?BxxxxP <= CHYBNÝ Sebastian (chybně zadáno)
+A?BxxxxP <= CHYBNÝ Slavomír (chybně zadáno)
+
+---------------------------
+Z celkově zadaných 30 jich bylo zadáno:
+správně 21 a 9 jich bylo chybně zapsáno

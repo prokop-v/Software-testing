@@ -1,0 +1,314 @@
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: NOVÁK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Josef
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ALDUS
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ŽELÉ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jakub
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - A14BxxxxPI
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: DIVOKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: René
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - A14BxxxxPI
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNOST
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Karel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁT
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Josef
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁTNO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Miloš
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLANKTON
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Richard
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLACHTA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jiří
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁŠŤ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Rudolf
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAHOČENÍ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Petr
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁNIČKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jan
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Václav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLACEBO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jindřich
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAŇKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: David
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAT
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Michal
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁNIČKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jaroslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNOST
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Alfréd
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: DLOUHÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Roman
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ŠIROKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Stanislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: BYSTROZRAKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Martin
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: René
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - R14MxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Daniel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - R14MxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Alois
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - R14MxxxxPI
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: STROJAŘ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: S
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - S14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PEDAGOG
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: P
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - P14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ELEKTRIKÁŘ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: E
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - E14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: EKONOM
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: K
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - K14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: UMĚLEC
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: D
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - D14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ZDRAVOTNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: Z
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - Z14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: FILOSOF
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: F
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - F14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Radomil
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - ?14BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Dalimil
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14?xxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Čestmír
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.<init>()] - A14Bxxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Vladan
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.<init>()] - ?14?xxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Břetislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.<init>()] - A14Bxxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pravoslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.<init>()] - A14?xxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Radovan
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - A??xxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Ctirad
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - ???xxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - ???xxxx?
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Drahoslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Vladislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 0X2014
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Sebastian
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 02014
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Slavomír
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 4
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0001P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0002PI
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0003P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0004PI
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0001K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0002K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0003P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0004K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0005P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0006P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0007P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0008P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0009P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0010P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0011K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0012P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0013P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0014P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0001P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0002P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0003P

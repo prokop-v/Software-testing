@@ -1,0 +1,67 @@
+[INFO - Hlavni.main()] - Zacatek programu
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavany soubor: neexistujici.txt
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavana fakulta: fav
+[ERROR - Generator.nactiVsechnaOsobniCisla()] - nenalezen vstupni soubor: neexistujici.txt
+[INFO - Generator.zpracovani()] - nacteno osobnich cisel: 0
+[INFO - Generator.pripravSkupinyARoztridDoNich()] - nalezeny znak fakulty: A
+[INFO - Generator.zpracovani()] - chybnych osobnich cisel: 0
+[INFO - Generator.generujVyslednaOsobniCisla()] - razeni podle abecedy
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: BAKALARSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: NAVAZUJICI
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: DOKTORSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: MAGISTERSKY
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Bakalářský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Bakalářský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Navazující
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Navazující' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Doktorský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Doktorský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Magisterský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Magisterský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: chybně zadáno
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'chybně zadáno' : 0
+[INFO - Hlavni.main()] - Konec programu - vysledky jsou v souboru: vysledky.txt
+[INFO - Hlavni.main()] - Zacatek programu
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavany soubor: priklady-oks-01-2.txt
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavana fakulta: fav
+[INFO - Generator.zpracovani()] - nacteno osobnich cisel: 4
+[INFO - Generator.pripravSkupinyARoztridDoNich()] - nalezeny znak fakulty: A
+[INFO - Generator.zpracovani()] - chybnych osobnich cisel: 0
+[INFO - Generator.generujVyslednaOsobniCisla()] - razeni podle abecedy
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: BAKALARSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: NAVAZUJICI
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: DOKTORSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: MAGISTERSKY
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Bakalářský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Bakalářský' : 4
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Navazující
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Navazující' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Doktorský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Doktorský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Magisterský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Magisterský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: chybně zadáno
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'chybně zadáno' : 0
+[INFO - Hlavni.main()] - Konec programu - vysledky jsou v souboru: vysledky.txt
+[INFO - Hlavni.main()] - Zacatek programu
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavany soubor: priklady-oks-01-1.txt
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavana fakulta: fav
+[INFO - Generator.zpracovani()] - nacteno osobnich cisel: 44
+[INFO - Generator.pripravSkupinyARoztridDoNich()] - nalezeny znak fakulty: A
+[INFO - Generator.zpracovani()] - chybnych osobnich cisel: 9
+[INFO - Generator.generujVyslednaOsobniCisla()] - razeni podle abecedy
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: BAKALARSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: NAVAZUJICI
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: DOKTORSKY
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: MAGISTERSKY
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Bakalářský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Bakalářský' : 4
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Navazující
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Navazující' : 14
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Doktorský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Doktorský' : 3
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Magisterský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Magisterský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: chybně zadáno
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'chybně zadáno' : 9
+[INFO - Hlavni.main()] - Konec programu - vysledky jsou v souboru: vysledky.txt

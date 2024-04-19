@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Properties>
+    <Property name="format">[%level - %logger{1}.%method()] - %msg%n</Property>
+    <Property name="info">oks-01-log-info.txt</Property>
+    <Property name="trace">oks-01-log-trace.txt</Property>
+    <Property name="debug">oks-01-log-debug.txt</Property>
+  </Properties>
+
+  <Appenders>
+    <File name="${info}" fileName="oks-01-log-info.txt" append="true"
+          immediateFlush="true">
+      <ThresholdFilter level="INFO"/>
+      <PatternLayout>
+        <Pattern>${format}</Pattern>
+      </PatternLayout>
+    </File>
+
+    <File name="${debug}" fileName="oks-01-log-debug.txt" append="false"
+          immediateFlush="true">
+      <ThresholdFilter level="DEBUG"/>
+      <PatternLayout>
+        <Pattern>${format}</Pattern>
+      </PatternLayout>
+    </File>
+
+    <File name="${trace}" fileName="oks-01-log-trace.txt" append="false"
+          immediateFlush="true">
+      <PatternLayout>
+        <Pattern>${format}</Pattern>
+      </PatternLayout>
+    </File>
+
+  </Appenders>
+  <Loggers>
+    <Logger name="oks01.Hlavni" level="INFO" additivity="false">
+      <AppenderRef ref="${info}"/>
+    </Logger>
+    <Logger name="oks01.Generator" level="DEBUG" additivity="false">
+      <AppenderRef ref="${info}"/>
+      <AppenderRef ref="${debug}"/>
+    </Logger>
+    <Logger name="oks01.OsobniCislo" level="TRACE" additivity="false">
+      <AppenderRef ref="${debug}"/>
+      <AppenderRef ref="${trace}"/>
+    </Logger>
+    <Root level="ERROR">
+      <AppenderRef ref="${info}"/>
+      <AppenderRef ref="${trace}"/>
+      <AppenderRef ref="${debug}"/>
+    </Root>
+  </Loggers>
+</Configuration>

@@ -1,0 +1,127 @@
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Novák, Josef, fav, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Aldus, Pavel, fav, 2014, B, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Želé, Jakub, fav, 2014, b, P, i
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Divoký, René, fav, 2014, B, P, I, něco navíc
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platnost, Karel, fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plát, Josef, Fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plátno, Miloš, FAv, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plankton, Richard, FAV, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plachta, Jiří, fav, 2014, N, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plášť, Rudolf, fav, 2014, n, P
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plahočení, Petr, fav, 2014, n, k
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plánička, Jan, fav, 2014, n, K
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platno, Václav, fav, 2014, N, k
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Placebo, Jindřich, fav, 2014, N, K
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plaňka, David, fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plat, Michal, fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plánička, Jaroslav, fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platnost, Alfréd, fav, 2014, n, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Dlouhý, Roman, fav, 2014, p, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Široký, Stanislav, fav, 2014, P, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Bystrozraký, Martin, fav, 2014, P, P
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, René, FPR, 2014, m, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, Daniel, FPR, 2014, M, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, Alois, FPR, 2014, M, P, I
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Strojař, Pavel, fst, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Pedagog, Pavel, FPE, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Elektrikář, Pavel, fel, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Ekonom, Pavel, fEk, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Umělec, Pavel, fDU, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Zdravotník, Pavel, fzS, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Filosof, Pavel, fF, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Radomil, fuj, 2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Dalimil, fav, 2014, x, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Čestmír, fav, 2014, b, x
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Vladan, fuj, 2014, x, x
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Břetislav, fav, 2014, b
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Pravoslav, fav, 2014
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Radovan, fav
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Ctirad
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Drahoslav, fav, 14, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Vladislav, fav, 0x2014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Sebastian, fav, 02014, b, p
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Slavomír, fav, 4, b, p
+[INFO - Generator.zpracovani()] - nacteno osobnich cisel: 44
+[INFO - Generator.pripravSkupinyARoztridDoNich()] - nalezeny znak fakulty: A
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxP <= NOVÁK Josef
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxP <= ALDUS Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxPI <= ŽELÉ Jakub
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxPI <= DIVOKÝ René
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLATNOST Karel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁT Josef
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁTNO Miloš
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLANKTON Richard
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLACHTA Jiří
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁŠŤ Rudolf
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLAHOČENÍ Petr
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLÁNIČKA Jan
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLATNO Václav
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLACEBO Jindřich
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLAŇKA David
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLAT Michal
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁNIČKA Jaroslav
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLATNOST Alfréd
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= DLOUHÝ Roman
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= ŠIROKÝ Stanislav
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= BYSTROZRAKÝ Martin
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxP <= PRÁVNÍK René
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxP <= PRÁVNÍK Daniel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxPI <= PRÁVNÍK Alois
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: S14BxxxxP <= STROJAŘ Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: P14BxxxxP <= PEDAGOG Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: E14BxxxxP <= ELEKTRIKÁŘ Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: K14BxxxxP <= EKONOM Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: D14BxxxxP <= UMĚLEC Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: Z14BxxxxP <= ZDRAVOTNÍK Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: F14BxxxxP <= FILOSOF Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ?14BxxxxP <= CHYBNÝ Radomil (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14?xxxxP <= CHYBNÝ Dalimil (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14Bxxxx? <= CHYBNÝ Čestmír (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ?14?xxxx? <= CHYBNÝ Vladan (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14Bxxxx? <= CHYBNÝ Břetislav (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14?xxxx? <= CHYBNÝ Pravoslav (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A??xxxx? <= CHYBNÝ Radovan (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ???xxxx? <= CHYBNÝ Ctirad (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ???xxxx? <= CHYBNÝ ? (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Drahoslav (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Vladislav (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Sebastian (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Slavomír (chybně zadáno)
+[INFO - Generator.zpracovani()] - chybnych osobnich cisel: 9
+[INFO - Generator.generujVyslednaOsobniCisla()] - razeni podle abecedy
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: BAKALARSKY
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0001P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0002PI
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0003P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0004PI
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: NAVAZUJICI
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0001K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0002K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0003P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0004K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0005P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0006P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0007P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0008P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0009P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0010P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0011K
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0012P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0013P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0014P
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: DOKTORSKY
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0001P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0002P
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0003P
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: MAGISTERSKY
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Bakalářský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Bakalářský' : 4
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Navazující
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Navazující' : 14
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Doktorský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Doktorský' : 3
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Magisterský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Magisterský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: chybně zadáno
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'chybně zadáno' : 9
