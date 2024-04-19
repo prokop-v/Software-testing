@@ -1,0 +1,27 @@
+# Bakalářský
+A14B0001P <= ALDUS Pavel
+A14B0002PI <= DIVOKÝ René
+A14B0003P <= NOVÁK Josef
+A14B0004PI <= ŽELÉ Jakub
+
+# Navazující
+A14N0001P <= PLACHTA Jiří
+A14N0002P <= PLANKTON Richard
+A14N0003P <= PLÁT Josef
+A14N0004P <= PLÁTNO Miloš
+A14N0005P <= PLATNOST Karel
+
+# Doktorský
+A14P0001P <= BYSTROZRAKÝ Martin
+A14P0002P <= DLOUHÝ Roman
+A14P0003P <= ŠIROKÝ Stanislav
+
+# Magisterský
+
+# chybně zadáno
+A14?xxxxP <= CHYBNÝ Dalimil (chybně zadáno)
+A14Bxxxx? <= CHYBNÝ Čestmír (chybně zadáno)
+
+---------------------------
+Z celkově zadaných 14 jich bylo zadáno:
+správně 12 a 2 jich bylo chybně zapsáno
